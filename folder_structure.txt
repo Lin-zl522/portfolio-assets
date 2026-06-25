@@ -1,9 +1,11 @@
 Folder PATH listing for volume Windows
-Volume serial number is 00000206 EE26:8919
+Volume serial number is 00000172 EE26:8919
 C:\USERS\ROBOSEN\DOCUMENTS\GITHUB\PORTFOLIO-ASSETS
 |   Architecture_cover.jpg
+|   folder_structure.txt
 |   Goods_cover.JPEG
 |   Illustration_cover.JPG
+|   portfolio-manifest.json
 |   Robotic Construction_cover.jpg
 |   Scale Model_cover.png
 |   输出文件结构.bat
@@ -157,7 +159,16 @@ C:\USERS\ROBOSEN\DOCUMENTS\GITHUB\PORTFOLIO-ASSETS
 |       HGCC Turn A Gundam_process_1.jpeg
 |       HGCC Turn A Gundam_process_2.jpeg
 |       
-+---Scale Model_5_Unicorn Gundam
++---Scale Model_5_Nowhere Bus
+|       Nowhere Bus_cover.JPEG
+|       Nowhere Bus_detail_1.JPEG
+|       Nowhere Bus_detail_2.JPEG
+|       Nowhere Bus_detail_3.png
+|       Nowhere Bus_detail_4.png
+|       Nowhere Bus_detail_5.png
+|       Nowhere Bus_detail_6.png
+|       
++---Scale Model_6_Unicorn Gundam
 |       HGUC Unicorn Gundam_cover.jpeg
 |       HGUC Unicorn Gundam_document_1.jpeg
 |       HGUC Unicorn Gundam_document_2.jpeg
@@ -168,14 +179,16 @@ C:\USERS\ROBOSEN\DOCUMENTS\GITHUB\PORTFOLIO-ASSETS
 |       HGUC Unicorn Gundam_process_2.jpeg
 |       HGUC Unicorn Gundam_process_3.jpeg
 |       
-+---Scale Model_6_Nowhere Bus
-|       Nowhere Bus_cover.JPEG
-|       Nowhere Bus_detail_1.JPEG
-|       Nowhere Bus_detail_2.JPEG
-|       Nowhere Bus_detail_3.png
-|       Nowhere Bus_detail_4.png
-|       Nowhere Bus_detail_5.png
-|       Nowhere Bus_detail_6.png
++---Scale Model_7_GM Sniper Ver.BFT
+|       GM Sniper Ver.BFT_cover.png
+|       GM Sniper Ver.BFT_document_1.png
+|       GM Sniper Ver.BFT_document_2.png
+|       GM Sniper Ver.BFT_document_3.png
+|       GM Sniper Ver.BFT_document_4.png
+|       GM Sniper Ver.BFT_document_5.png
+|       GM Sniper Ver.BFT_document_6.png
+|       GM Sniper Ver.BFT_process_1.jpg
+|       GM Sniper Ver.BFT_process_2.jpeg
 |       
 \---UI
         Sofia Pro Regular.ttf
