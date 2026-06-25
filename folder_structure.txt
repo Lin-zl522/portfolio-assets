@@ -1,5 +1,5 @@
 Folder PATH listing for volume Windows
-Volume serial number is 00000172 EE26:8919
+Volume serial number is 0000020B EE26:8919
 C:\USERS\ROBOSEN\DOCUMENTS\GITHUB\PORTFOLIO-ASSETS
 |   Architecture_cover.jpg
 |   folder_structure.txt
@@ -108,7 +108,7 @@ C:\USERS\ROBOSEN\DOCUMENTS\GITHUB\PORTFOLIO-ASSETS
 |       Closed Loop_Document_4.jpg
 |       Closed Loop_Document_5.jpg
 |       
-+---Robotic_Construction_2_The Column
++---Robotic Construction_2_The Column
 |       The Column_cover.jpg
 |       The Column_Diagrams_1.png
 |       The Column_Diagrams_2.png
