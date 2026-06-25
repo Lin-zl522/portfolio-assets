@@ -1,0 +1,185 @@
+Folder PATH listing for volume Windows
+Volume serial number is 00000206 EE26:8919
+C:\USERS\ROBOSEN\DOCUMENTS\GITHUB\PORTFOLIO-ASSETS
+|   Architecture_cover.jpg
+|   Goods_cover.JPEG
+|   Illustration_cover.JPG
+|   Robotic Construction_cover.jpg
+|   Scale Model_cover.png
+|   输出文件结构.bat
+|   
++---Architecture_1_Closing Tents
+|       Closing Tents_cover.jpg
+|       Closing Tents_model_1.png
+|       Closing Tents_model_2.png
+|       Closing Tents_model_3.png
+|       Closing Tents_model_4.png
+|       Closing Tents_model_plan.png
+|       Closing Tents_render_1.jpg
+|       Closing Tents_render_2.png
+|       Closing Tents_site.png
+|       
++---Architecture_2_Grow-as-You-Go
+|       Grow-as-You-Go_axon_1.jpg
+|       Grow-as-You-Go_axon_2.jpg
+|       Grow-as-You-Go_cover.jpg
+|       Grow-as-You-Go_model_1.JPG
+|       Grow-as-You-Go_model_2.JPG
+|       Grow-as-You-Go_model_3.JPG
+|       Grow-as-You-Go_model_4.JPG
+|       Grow-as-You-Go_model_5.JPG
+|       Grow-as-You-Go_plan.png
+|       Grow-as-You-Go_render_1.jpg
+|       Grow-as-You-Go_render_2.jpg
+|       Grow-as-You-Go_render_3.jpg
+|       Grow-as-You-Go_render_4.jpg
+|       Grow-as-You-Go_section_1.png
+|       Grow-as-You-Go_section_2.png
+|       
++---Architecture_3_SHELL-TER
+|       SHELL-TER_axon_1.jpg
+|       SHELL-TER_axon_2.jpg
+|       SHELL-TER_axon_3.jpg
+|       SHELL-TER_cover.jpg
+|       SHELL-TER_Demo_1.jpg
+|       SHELL-TER_Demo_2.jpg
+|       SHELL-TER_Demo_3.jpg
+|       SHELL-TER_Diagram_1.jpg
+|       SHELL-TER_Diagram_2.jpg
+|       SHELL-TER_Diagram_3.jpg
+|       SHELL-TER_Form_1.jpg
+|       SHELL-TER_Form_2.jpg
+|       SHELL-TER_Form_3.jpg
+|       SHELL-TER_Form_4.jpg
+|       SHELL-TER_Form_5.jpg
+|       SHELL-TER_Form_6.jpg
+|       SHELL-TER_Form_7.jpg
+|       SHELL-TER_Form_8.jpg
+|       SHELL-TER_Graph_1.jpg
+|       SHELL-TER_Graph_2.jpg
+|       SHELL-TER_model.JPG
+|       SHELL-TER_Site_1.jpg
+|       SHELL-TER_Site_2.jpg
+|       SHELL-TER_Site_3.jpg
+|       
++---Architecture_4_Trumansburg Library
+|       Trumansburg Library_axon_1.jpg
+|       Trumansburg Library_axon_2.jpg
+|       Trumansburg Library_cover.jpg
+|       Trumansburg Library_detail_1.png
+|       Trumansburg Library_detail_2.png
+|       Trumansburg Library_model_1.jpg
+|       Trumansburg Library_model_2.jpg
+|       Trumansburg Library_model_3.jpg
+|       Trumansburg Library_model_4.jpg
+|       Trumansburg Library_plan.png
+|       Trumansburg Library_section_1.png
+|       Trumansburg Library_section_2.jpg
+|       Trumansburg Library_site.png
+|       
++---Illustration
+|       Barbatos Lups Rex.jpg
+|       Calibarn -Aerial-.PNG
+|       GFred_1.jpg
+|       GFred_2.PNG
+|       GQuuuuuuX_1.JPG
+|       GQuuuuuuX_2.JPG
+|       Optimus Prime_1.JPG
+|       Optimus Prime_2.JPG
+|       Rising Freedom.JPG
+|       Star Striker_1.JPEG
+|       Star Striker_2.jpg
+|       Untitled.JPG
+|       
++---Robotic Construction_1_Closed Loop
+|       Closed Loop_cover.jpg
+|       Closed Loop_Diagrams_1.png
+|       Closed Loop_Diagrams_2.jpg
+|       Closed Loop_Diagrams_3.jpg
+|       Closed Loop_Diagrams_4.jpg
+|       Closed Loop_Diagrams_5.jpg
+|       Closed Loop_Diagrams_6.jpg
+|       Closed Loop_Diagrams_7.jpg
+|       Closed Loop_Document_1.jpg
+|       Closed Loop_Document_2.jpg
+|       Closed Loop_Document_3.jpg
+|       Closed Loop_Document_4.jpg
+|       Closed Loop_Document_5.jpg
+|       
++---Robotic_Construction_2_The Column
+|       The Column_cover.jpg
+|       The Column_Diagrams_1.png
+|       The Column_Diagrams_2.png
+|       The Column_Document_1.jpg
+|       The Column_Document_2.jpg
+|       The Column_Document_3.jpg
+|       The Column_Document_4.JPG
+|       The Column_Document_5.png
+|       The Column_Document_6.png
+|       The Column_Document_7.png
+|       The Column_Document_8.png
+|       
++---Scale Model_1_Ex-S Gundam
+|       HGUC Ex-S Gundam_cover.png
+|       HGUC Ex-S Gundam_document_1.png
+|       HGUC Ex-S Gundam_document_2.png
+|       HGUC Ex-S Gundam_document_3.png
+|       HGUC Ex-S Gundam_document_4.png
+|       HGUC Ex-S Gundam_process_1.jpeg
+|       HGUC Ex-S Gundam_process_2.jpeg
+|       
++---Scale Model_2_Gundam Barbatos
+|       HGIBO Gundam Barbatos_cover.jpg
+|       HGIBO Gundam Barbatos_document_1.jpg
+|       HGIBO Gundam Barbatos_document_2.jpg
+|       HGIBO Gundam Barbatos_document_3.jpg
+|       HGIBO Gundam Barbatos_document_4.jpg
+|       HGIBO Gundam Barbatos_document_5.jpg
+|       HGIBO Gundam Barbatos_process_1.jpg
+|       HGIBO Gundam Barbatos_process_2.png
+|       HGIBO Gundam Barbatos_process_3.png
+|       HGIBO Gundam Barbatos_process_4.png
+|       
++---Scale Model_3_Zeta Gundam Head
+|       Model_Zeta Gundam Head_cover.png
+|       Model_Zeta Gundam Head_document_1.png
+|       Model_Zeta Gundam Head_document_2.png
+|       Model_Zeta Gundam Head_process_1.png
+|       Model_Zeta Gundam Head_process_2.png
+|       
++---Scale Model_4_Turn A Gundam
+|       HGCC Turn A Gundam_cover.jpg
+|       HGCC Turn A Gundam_document_1.jpg
+|       HGCC Turn A Gundam_document_2.jpg
+|       HGCC Turn A Gundam_document_3.jpg
+|       HGCC Turn A Gundam_document_4.jpg
+|       HGCC Turn A Gundam_document_5.jpg
+|       HGCC Turn A Gundam_process_1.jpeg
+|       HGCC Turn A Gundam_process_2.jpeg
+|       
++---Scale Model_5_Unicorn Gundam
+|       HGUC Unicorn Gundam_cover.jpeg
+|       HGUC Unicorn Gundam_document_1.jpeg
+|       HGUC Unicorn Gundam_document_2.jpeg
+|       HGUC Unicorn Gundam_document_3.jpeg
+|       HGUC Unicorn Gundam_document_4.jpeg
+|       HGUC Unicorn Gundam_document_5.jpeg
+|       HGUC Unicorn Gundam_process_1.jpeg
+|       HGUC Unicorn Gundam_process_2.jpeg
+|       HGUC Unicorn Gundam_process_3.jpeg
+|       
++---Scale Model_6_Nowhere Bus
+|       Nowhere Bus_cover.JPEG
+|       Nowhere Bus_detail_1.JPEG
+|       Nowhere Bus_detail_2.JPEG
+|       Nowhere Bus_detail_3.png
+|       Nowhere Bus_detail_4.png
+|       Nowhere Bus_detail_5.png
+|       Nowhere Bus_detail_6.png
+|       
+\---UI
+        Sofia Pro Regular.ttf
+        UI_Back.png
+        头像.png
+        预定调和_Logo_宽.png
+        
