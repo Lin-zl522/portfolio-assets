@@ -1,5 +1,5 @@
 Folder PATH listing for volume Windows
-Volume serial number is 00000195 EE26:8919
+Volume serial number is 0000018A EE26:8919
 C:\USERS\ROBOSEN\DOCUMENTS\GITHUB\PORTFOLIO-ASSETS
 |   Architecture_cover.jpg
 |   folder_structure.txt
@@ -12,31 +12,31 @@ C:\USERS\ROBOSEN\DOCUMENTS\GITHUB\PORTFOLIO-ASSETS
 |   
 +---Architecture_1_Closing Tents
 |       Closing Tents_cover.jpg
-|       Closing Tents_model_1.png
-|       Closing Tents_model_2.png
-|       Closing Tents_model_3.png
-|       Closing Tents_model_4.png
-|       Closing Tents_model_plan.png
-|       Closing Tents_render_1.jpg
-|       Closing Tents_render_2.png
-|       Closing Tents_site.png
+|       Closing Tents_model_m_1.png
+|       Closing Tents_model_m_2.png
+|       Closing Tents_model_m_3.png
+|       Closing Tents_model_m_4.png
+|       Closing Tents_model_plan_l_1.png
+|       Closing Tents_render_l_1.jpg
+|       Closing Tents_render_l_2.png
+|       Closing Tents_site_l_1.png
 |       
 +---Architecture_2_Grow-as-You-Go
-|       Grow-as-You-Go_axon_1.jpg
-|       Grow-as-You-Go_axon_2.jpg
+|       Grow-as-You-Go_axon_l_1.jpg
+|       Grow-as-You-Go_axon_l_2.jpg
 |       Grow-as-You-Go_cover.jpg
-|       Grow-as-You-Go_model_1.JPG
-|       Grow-as-You-Go_model_2.JPG
-|       Grow-as-You-Go_model_3.JPG
-|       Grow-as-You-Go_model_4.JPG
-|       Grow-as-You-Go_model_5.JPG
-|       Grow-as-You-Go_plan.png
-|       Grow-as-You-Go_render_1.jpg
-|       Grow-as-You-Go_render_2.jpg
-|       Grow-as-You-Go_render_3.jpg
-|       Grow-as-You-Go_render_4.jpg
-|       Grow-as-You-Go_section_1.png
-|       Grow-as-You-Go_section_2.png
+|       Grow-as-You-Go_l_plan_1.png
+|       Grow-as-You-Go_model_m_1.JPG
+|       Grow-as-You-Go_model_m_2.JPG
+|       Grow-as-You-Go_model_m_3.JPG
+|       Grow-as-You-Go_model_m_4.JPG
+|       Grow-as-You-Go_model_m_5.JPG
+|       Grow-as-You-Go_render_l_4.jpg
+|       Grow-as-You-Go_render_s_1.jpg
+|       Grow-as-You-Go_render_s_2.jpg
+|       Grow-as-You-Go_render_s_3.jpg
+|       Grow-as-You-Go_section_m_1.png
+|       Grow-as-You-Go_section_m_2.png
 |       
 +---Architecture_3_SHELL-TER
 |       SHELL-TER_axon_l_1.jpg
@@ -63,19 +63,19 @@ C:\USERS\ROBOSEN\DOCUMENTS\GITHUB\PORTFOLIO-ASSETS
 |       SHELL-TER_site_l_1.jpg
 |       
 +---Architecture_4_Trumansburg Library
-|       Trumansburg Library_axon_1.jpg
-|       Trumansburg Library_axon_2.jpg
 |       Trumansburg Library_cover.jpg
-|       Trumansburg Library_diagram_1.png
-|       Trumansburg Library_diagram_2.png
-|       Trumansburg Library_model_1.jpg
-|       Trumansburg Library_model_2.jpg
-|       Trumansburg Library_model_3.jpg
-|       Trumansburg Library_model_4.jpg
-|       Trumansburg Library_plan.png
-|       Trumansburg Library_section_1.png
-|       Trumansburg Library_section_2.jpg
-|       Trumansburg Library_site.png
+|       Trumansburg Library_diagram_m_1.png
+|       Trumansburg Library_diagram_m_2.png
+|       Trumansburg Library_model_m_1.jpg
+|       Trumansburg Library_model_m_2.jpg
+|       Trumansburg Library_model_m_3.jpg
+|       Trumansburg Library_model_m_4.jpg
+|       Trumansburg Library_plan_l_1.png
+|       Trumansburg Library_render_l_1.jpg
+|       Trumansburg Library_render_l_2.jpg
+|       Trumansburg Library_section_m_1.png
+|       Trumansburg Library_section_m_2.jpg
+|       Trumansburg Library_site_l_1.png
 |       
 +---Goods
 |       TCG Coins-Pokemon_1.JPEG
@@ -101,110 +101,108 @@ C:\USERS\ROBOSEN\DOCUMENTS\GITHUB\PORTFOLIO-ASSETS
 |       
 +---Robotic Construction_1_Closed Loop
 |       Closed Loop_cover.jpg
-|       Closed Loop_diagram_1.png
-|       Closed Loop_diagram_2.jpg
-|       Closed Loop_diagram_3.jpg
-|       Closed Loop_diagram_4.jpg
-|       Closed Loop_diagram_5.jpg
-|       Closed Loop_diagram_6.jpg
-|       Closed Loop_diagram_7.jpg
-|       Closed Loop_document_1.jpg
-|       Closed Loop_document_2.jpg
-|       Closed Loop_document_3.jpg
-|       Closed Loop_document_4.jpg
-|       Closed Loop_document_5.jpg
+|       Closed Loop_diagram_l_1.png
+|       Closed Loop_diagram_s_2.jpg
+|       Closed Loop_diagram_s_3.jpg
+|       Closed Loop_diagram_s_4.jpg
+|       Closed Loop_diagram_s_5.jpg
+|       Closed Loop_diagram_s_6.jpg
+|       Closed Loop_diagram_s_7.jpg
+|       Closed Loop_document_l_1.jpg
+|       Closed Loop_document_l_2.jpg
+|       Closed Loop_document_s_3.jpg
+|       Closed Loop_document_s_4.jpg
+|       Closed Loop_document_s_5.jpg
 |       
 +---Robotic Construction_2_The Column
 |       The Column_cover.jpg
-|       The Column_diagram_1.png
-|       The Column_diagram_2.png
-|       The Column_document_1.jpg
-|       The Column_document_2.jpg
-|       The Column_document_3.jpg
-|       The Column_document_4.JPG
-|       The Column_document_5.png
-|       The Column_document_6.png
-|       The Column_document_7.png
-|       The Column_document_8.png
+|       The Column_diagram_m_1.png
+|       The Column_diagram_m_2.png
+|       The Column_document_l_1.jpg
+|       The Column_document_m_2.jpg
+|       The Column_document_m_3.jpg
+|       The Column_document_m_4.JPG
+|       The Column_document_m_5.png
+|       The Column_process_s_1.png
+|       The Column_process_s_2.png
+|       The Column_process_s_3.png
 |       
 +---Robotic Construction_3_Folding Joint
 |       Folding Joint_cover.png
-|       Folding Joint_diagram_1.jpg
-|       Folding Joint_diagram_2.jpg
-|       Folding Joint_document_1.png
-|       Folding Joint_document_2.png
-|       Folding Joint_document_3.png
-|       Folding Joint_document_4.png
-|       Folding Joint_document_5.png
+|       Folding Joint_diagram_l_1.jpg
+|       Folding Joint_diagram_l_2.jpg
+|       Folding Joint_document_l_1.png
+|       Folding Joint_document_m_2.png
+|       Folding Joint_document_m_3.png
+|       Folding Joint_document_m_4.png
+|       Folding Joint_document_m_5.png
 |       
 +---Scale Model_1_Ex-S Gundam
 |       HGUC Ex-S Gundam_cover.png
-|       HGUC Ex-S Gundam_document_1.png
-|       HGUC Ex-S Gundam_document_2.png
-|       HGUC Ex-S Gundam_document_3.png
-|       HGUC Ex-S Gundam_document_4.png
-|       HGUC Ex-S Gundam_process_1.jpeg
-|       HGUC Ex-S Gundam_process_2.jpeg
+|       HGUC Ex-S Gundam_document_l_3.png
+|       HGUC Ex-S Gundam_document_m_1.png
+|       HGUC Ex-S Gundam_document_m_2.png
+|       HGUC Ex-S Gundam_process_m_1.jpeg
+|       HGUC Ex-S Gundam_process_m_2.jpeg
 |       
 +---Scale Model_2_Gundam Barbatos
 |       HGIBO Gundam Barbatos_cover.jpg
-|       HGIBO Gundam Barbatos_document_1.jpg
-|       HGIBO Gundam Barbatos_document_2.jpg
-|       HGIBO Gundam Barbatos_document_3.jpg
-|       HGIBO Gundam Barbatos_document_4.jpg
-|       HGIBO Gundam Barbatos_document_5.jpg
-|       HGIBO Gundam Barbatos_process_1.jpg
-|       HGIBO Gundam Barbatos_process_2.png
-|       HGIBO Gundam Barbatos_process_3.png
-|       HGIBO Gundam Barbatos_process_4.png
+|       HGIBO Gundam Barbatos_document_l_1.jpg
+|       HGIBO Gundam Barbatos_document_m_2.jpg
+|       HGIBO Gundam Barbatos_document_m_3.jpg
+|       HGIBO Gundam Barbatos_document_m_4.jpg
+|       HGIBO Gundam Barbatos_document_m_5.jpg
+|       HGIBO Gundam Barbatos_process_xs_1.jpg
+|       HGIBO Gundam Barbatos_process_xs_2.png
+|       HGIBO Gundam Barbatos_process_xs_3.png
+|       HGIBO Gundam Barbatos_process_xs_4.png
 |       
 +---Scale Model_3_Zeta Gundam Head
 |       Model_Zeta Gundam Head_cover.png
-|       Model_Zeta Gundam Head_document_1.png
-|       Model_Zeta Gundam Head_document_2.png
-|       Model_Zeta Gundam Head_process_1.png
-|       Model_Zeta Gundam Head_process_2.png
+|       Model_Zeta Gundam Head_document_s_2.png
+|       Model_Zeta Gundam Head_process_s_1.png
+|       Model_Zeta Gundam Head_process_s_2.png
 |       
 +---Scale Model_4_Turn A Gundam
 |       HGCC Turn A Gundam_cover.jpg
-|       HGCC Turn A Gundam_document_1.jpg
-|       HGCC Turn A Gundam_document_2.jpg
-|       HGCC Turn A Gundam_document_3.jpg
-|       HGCC Turn A Gundam_document_4.jpg
-|       HGCC Turn A Gundam_document_5.jpg
-|       HGCC Turn A Gundam_process_1.jpeg
-|       HGCC Turn A Gundam_process_2.jpeg
+|       HGCC Turn A Gundam_document_m_1.jpg
+|       HGCC Turn A Gundam_document_m_2.jpg
+|       HGCC Turn A Gundam_document_m_3.jpg
+|       HGCC Turn A Gundam_document_m_4.jpg
+|       HGCC Turn A Gundam_document_m_5.jpg
+|       HGCC Turn A Gundam_document_m_6.jpg
+|       HGCC Turn A Gundam_process_xs_1.jpeg
+|       HGCC Turn A Gundam_process_xs_2.jpeg
+|       HGCC Turn A Gundam_process_xs_3.jpeg
 |       
 +---Scale Model_5_Nowhere Bus
 |       Nowhere Bus_cover.JPEG
-|       Nowhere Bus_detail_1.JPEG
-|       Nowhere Bus_detail_2.JPEG
-|       Nowhere Bus_detail_3.png
-|       Nowhere Bus_detail_4.png
-|       Nowhere Bus_detail_5.png
-|       Nowhere Bus_detail_6.png
+|       Nowhere Bus_document_m_1.png
+|       Nowhere Bus_document_m_2.JPEG
+|       Nowhere Bus_model_s_1.png
+|       Nowhere Bus_model_s_2.png
+|       Nowhere Bus_model_s_3.png
 |       
 +---Scale Model_6_Unicorn Gundam
 |       HGUC Unicorn Gundam_cover.jpeg
-|       HGUC Unicorn Gundam_document_1.jpeg
-|       HGUC Unicorn Gundam_document_2.jpeg
-|       HGUC Unicorn Gundam_document_3.jpeg
-|       HGUC Unicorn Gundam_document_4.jpeg
-|       HGUC Unicorn Gundam_document_5.jpeg
-|       HGUC Unicorn Gundam_process_1.jpeg
-|       HGUC Unicorn Gundam_process_2.jpeg
-|       HGUC Unicorn Gundam_process_3.jpeg
+|       HGUC Unicorn Gundam_document_m_1.jpeg
+|       HGUC Unicorn Gundam_document_m_2.jpeg
+|       HGUC Unicorn Gundam_document_m_3.jpeg
+|       HGUC Unicorn Gundam_document_m_4.jpeg
+|       HGUC Unicorn Gundam_process_s_1.jpeg
+|       HGUC Unicorn Gundam_process_s_2.jpeg
+|       HGUC Unicorn Gundam_process_s_3.jpeg
 |       
 +---Scale Model_7_GM Sniper Ver.BFT
 |       GM Sniper Ver.BFT_cover.png
-|       GM Sniper Ver.BFT_document_1.png
-|       GM Sniper Ver.BFT_document_2.png
-|       GM Sniper Ver.BFT_document_3.png
-|       GM Sniper Ver.BFT_document_4.png
-|       GM Sniper Ver.BFT_document_5.png
-|       GM Sniper Ver.BFT_document_6.png
-|       GM Sniper Ver.BFT_process_1.jpg
-|       GM Sniper Ver.BFT_process_2.jpeg
+|       GM Sniper Ver.BFT_document_l_5.png
+|       GM Sniper Ver.BFT_document_m_1.png
+|       GM Sniper Ver.BFT_document_m_2.png
+|       GM Sniper Ver.BFT_document_m_3.png
+|       GM Sniper Ver.BFT_document_m_4.png
+|       GM Sniper Ver.BFT_process_s_1.jpg
+|       GM Sniper Ver.BFT_process_s_2.jpeg
+|       GM Sniper Ver.BFT_process_s_3.jpeg
 |       
 \---UI
         Sofia Pro Regular.ttf
