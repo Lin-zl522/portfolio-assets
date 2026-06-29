@@ -63,12 +63,12 @@
 "Architecture_1_Closing Tents/Closing Tents_cover.jpg",
 "Architecture_1_Closing Tents/Closing Tents_render_1.jpg",
 "Architecture_1_Closing Tents/Closing Tents_render_2.png",
-"Architecture_1_Closing Tents/Closing Tents_site.png",
 "Architecture_1_Closing Tents/Closing Tents_model_1.png",
 "Architecture_1_Closing Tents/Closing Tents_model_2.png",
 "Architecture_1_Closing Tents/Closing Tents_model_3.png",
 "Architecture_1_Closing Tents/Closing Tents_model_4.png",
-"Architecture_1_Closing Tents/Closing Tents_model_plan.png"
+"Architecture_1_Closing Tents/Closing Tents_model_plan.png",
+"Architecture_1_Closing Tents/Closing Tents_site.png"
 ],
 "kind": "project"
 },
@@ -86,16 +86,16 @@
 "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_render_2.jpg",
 "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_render_3.jpg",
 "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_render_4.jpg",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_axon_1.jpg",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_axon_2.jpg",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_plan.png",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_section_1.png",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_section_2.png",
 "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_1.JPG",
 "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_2.JPG",
 "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_3.JPG",
 "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_4.JPG",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_5.JPG"
+"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_5.JPG",
+"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_axon_1.jpg",
+"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_axon_2.jpg",
+"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_plan.png",
+"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_section_1.png",
+"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_section_2.png"
 ],
 "kind": "project"
 },
@@ -109,29 +109,27 @@
 "description": "",
 "images": [
 "Architecture_3_SHELL-TER/SHELL-TER_cover.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_axon_1.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_axon_2.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_axon_3.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_site_1.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_site_2.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_site_3.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_model.JPG",
-"Architecture_3_SHELL-TER/SHELL-TER_demo_1.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_demo_2.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_demo_3.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_diagram_1.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_diagram_2.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_diagram_3.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_form_1.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_form_2.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_form_3.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_form_4.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_form_5.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_form_6.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_form_7.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_form_8.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_graph_1.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_graph_2.jpg"
+"Architecture_3_SHELL-TER/SHELL-TER_render_l_1.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_render_l_2.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_model_m_1.JPG",
+"Architecture_3_SHELL-TER/SHELL-TER_model_m_2.JPG",
+"Architecture_3_SHELL-TER/SHELL-TER_model_m_3.JPG",
+"Architecture_3_SHELL-TER/SHELL-TER_model_m_4.JPG",
+"Architecture_3_SHELL-TER/SHELL-TER_site_l_1.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_axon_l_1.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_section_s_1.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_section_s_2.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_section_s_3.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_1.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_2.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_3.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_4.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_5.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_6.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_7.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_8.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_9.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_10.jpg"
 ],
 "kind": "project"
 },
@@ -145,18 +143,18 @@
 "description": "",
 "images": [
 "Architecture_4_Trumansburg Library/Trumansburg Library_cover.jpg",
+"Architecture_4_Trumansburg Library/Trumansburg Library_model_1.jpg",
+"Architecture_4_Trumansburg Library/Trumansburg Library_model_2.jpg",
+"Architecture_4_Trumansburg Library/Trumansburg Library_model_3.jpg",
+"Architecture_4_Trumansburg Library/Trumansburg Library_model_4.jpg",
 "Architecture_4_Trumansburg Library/Trumansburg Library_site.png",
 "Architecture_4_Trumansburg Library/Trumansburg Library_axon_1.jpg",
 "Architecture_4_Trumansburg Library/Trumansburg Library_axon_2.jpg",
 "Architecture_4_Trumansburg Library/Trumansburg Library_plan.png",
 "Architecture_4_Trumansburg Library/Trumansburg Library_section_1.png",
 "Architecture_4_Trumansburg Library/Trumansburg Library_section_2.jpg",
-"Architecture_4_Trumansburg Library/Trumansburg Library_model_1.jpg",
-"Architecture_4_Trumansburg Library/Trumansburg Library_model_2.jpg",
-"Architecture_4_Trumansburg Library/Trumansburg Library_model_3.jpg",
-"Architecture_4_Trumansburg Library/Trumansburg Library_model_4.jpg",
-"Architecture_4_Trumansburg Library/Trumansburg Library_detail_1.png",
-"Architecture_4_Trumansburg Library/Trumansburg Library_detail_2.png"
+"Architecture_4_Trumansburg Library/Trumansburg Library_diagram_1.png",
+"Architecture_4_Trumansburg Library/Trumansburg Library_diagram_2.png"
 ],
 "kind": "project"
 }
@@ -172,18 +170,18 @@
 "description": "",
 "images": [
 "Robotic Construction_1_Closed Loop/Closed Loop_cover.jpg",
+"Robotic Construction_1_Closed Loop/Closed Loop_document_1.jpg",
+"Robotic Construction_1_Closed Loop/Closed Loop_document_2.jpg",
+"Robotic Construction_1_Closed Loop/Closed Loop_document_3.jpg",
+"Robotic Construction_1_Closed Loop/Closed Loop_document_4.jpg",
+"Robotic Construction_1_Closed Loop/Closed Loop_document_5.jpg",
 "Robotic Construction_1_Closed Loop/Closed Loop_diagram_1.png",
 "Robotic Construction_1_Closed Loop/Closed Loop_diagram_2.jpg",
 "Robotic Construction_1_Closed Loop/Closed Loop_diagram_3.jpg",
 "Robotic Construction_1_Closed Loop/Closed Loop_diagram_4.jpg",
 "Robotic Construction_1_Closed Loop/Closed Loop_diagram_5.jpg",
 "Robotic Construction_1_Closed Loop/Closed Loop_diagram_6.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_diagram_7.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_document_1.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_document_2.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_document_3.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_document_4.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_document_5.jpg"
+"Robotic Construction_1_Closed Loop/Closed Loop_diagram_7.jpg"
 ],
 "kind": "project"
 },
@@ -197,8 +195,6 @@
 "description": "",
 "images": [
 "Robotic Construction_2_The Column/The Column_cover.jpg",
-"Robotic Construction_2_The Column/The Column_diagram_1.png",
-"Robotic Construction_2_The Column/The Column_diagram_2.png",
 "Robotic Construction_2_The Column/The Column_document_1.jpg",
 "Robotic Construction_2_The Column/The Column_document_2.jpg",
 "Robotic Construction_2_The Column/The Column_document_3.jpg",
@@ -206,7 +202,9 @@
 "Robotic Construction_2_The Column/The Column_document_5.png",
 "Robotic Construction_2_The Column/The Column_document_6.png",
 "Robotic Construction_2_The Column/The Column_document_7.png",
-"Robotic Construction_2_The Column/The Column_document_8.png"
+"Robotic Construction_2_The Column/The Column_document_8.png",
+"Robotic Construction_2_The Column/The Column_diagram_1.png",
+"Robotic Construction_2_The Column/The Column_diagram_2.png"
 ],
 "kind": "project"
 },
@@ -220,13 +218,13 @@
 "description": "",
 "images": [
 "Robotic Construction_3_Folding Joint/Folding Joint_cover.png",
-"Robotic Construction_3_Folding Joint/Folding Joint_diagram_1.jpg",
-"Robotic Construction_3_Folding Joint/Folding Joint_diagram_2.jpg",
 "Robotic Construction_3_Folding Joint/Folding Joint_document_1.png",
 "Robotic Construction_3_Folding Joint/Folding Joint_document_2.png",
 "Robotic Construction_3_Folding Joint/Folding Joint_document_3.png",
 "Robotic Construction_3_Folding Joint/Folding Joint_document_4.png",
-"Robotic Construction_3_Folding Joint/Folding Joint_document_5.png"
+"Robotic Construction_3_Folding Joint/Folding Joint_document_5.png",
+"Robotic Construction_3_Folding Joint/Folding Joint_diagram_1.jpg",
+"Robotic Construction_3_Folding Joint/Folding Joint_diagram_2.jpg"
 ],
 "kind": "project"
 }
