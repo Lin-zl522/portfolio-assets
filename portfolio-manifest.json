@@ -1,6 +1,6 @@
 {
     "version":  1,
-    "generatedAt":  "2026-06-29T10:11:35.8329284Z",
+    "generatedAt":  "2026-06-29T10:17:32.5807155Z",
     "root":  ".",
     "categories":  [
                        {
@@ -61,14 +61,13 @@
                                                         "description":  "",
                                                         "images":  [
                                                                        "Architecture_1_Closing Tents/Closing Tents_cover.jpg",
-                                                                       "Architecture_1_Closing Tents/Closing Tents_render_l_1.jpg",
-                                                                       "Architecture_1_Closing Tents/Closing Tents_render_l_2.png",
+                                                                       "Architecture_1_Closing Tents/Closing Tents_render_l_1.png",
                                                                        "Architecture_1_Closing Tents/Closing Tents_model_m_1.png",
-                                                                       "Architecture_1_Closing Tents/Closing Tents_model_plan_l_1.png",
                                                                        "Architecture_1_Closing Tents/Closing Tents_model_m_2.png",
                                                                        "Architecture_1_Closing Tents/Closing Tents_model_m_3.png",
                                                                        "Architecture_1_Closing Tents/Closing Tents_model_m_4.png",
-                                                                       "Architecture_1_Closing Tents/Closing Tents_site_l_1.png"
+                                                                       "Architecture_1_Closing Tents/Closing Tents_site_l_1.png",
+                                                                       "Architecture_1_Closing Tents/Closing Tents_plan_l_1.png"
                                                                    ],
                                                         "kind":  "project"
                                                     },
@@ -89,11 +88,12 @@
                                                                        "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_m_1.JPG",
                                                                        "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_m_2.JPG",
                                                                        "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_m_3.JPG",
-                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_m_4.JPG",
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_m_4.jpg",
                                                                        "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_m_5.JPG",
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_m_6.JPG",
                                                                        "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_axon_l_1.jpg",
                                                                        "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_axon_l_2.jpg",
-                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_l_plan_1.png",
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_plan_l_1.png",
                                                                        "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_section_m_1.png",
                                                                        "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_section_m_2.png"
                                                                    ],
