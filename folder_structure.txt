@@ -1,5 +1,5 @@
 Folder PATH listing for volume Windows
-Volume serial number is 0000020B EE26:8919
+Volume serial number is 000001F7 EE26:8919
 C:\USERS\ROBOSEN\DOCUMENTS\GITHUB\PORTFOLIO-ASSETS
 |   Architecture_cover.jpg
 |   folder_structure.txt
@@ -43,26 +43,26 @@ C:\USERS\ROBOSEN\DOCUMENTS\GITHUB\PORTFOLIO-ASSETS
 |       SHELL-TER_axon_2.jpg
 |       SHELL-TER_axon_3.jpg
 |       SHELL-TER_cover.jpg
-|       SHELL-TER_Demo_1.jpg
-|       SHELL-TER_Demo_2.jpg
-|       SHELL-TER_Demo_3.jpg
-|       SHELL-TER_Diagram_1.jpg
-|       SHELL-TER_Diagram_2.jpg
-|       SHELL-TER_Diagram_3.jpg
-|       SHELL-TER_Form_1.jpg
-|       SHELL-TER_Form_2.jpg
-|       SHELL-TER_Form_3.jpg
-|       SHELL-TER_Form_4.jpg
-|       SHELL-TER_Form_5.jpg
-|       SHELL-TER_Form_6.jpg
-|       SHELL-TER_Form_7.jpg
-|       SHELL-TER_Form_8.jpg
-|       SHELL-TER_Graph_1.jpg
-|       SHELL-TER_Graph_2.jpg
+|       SHELL-TER_demo_1.jpg
+|       SHELL-TER_demo_2.jpg
+|       SHELL-TER_demo_3.jpg
+|       SHELL-TER_diagram_1.jpg
+|       SHELL-TER_diagram_2.jpg
+|       SHELL-TER_diagram_3.jpg
+|       SHELL-TER_form_1.jpg
+|       SHELL-TER_form_2.jpg
+|       SHELL-TER_form_3.jpg
+|       SHELL-TER_form_4.jpg
+|       SHELL-TER_form_5.jpg
+|       SHELL-TER_form_6.jpg
+|       SHELL-TER_form_7.jpg
+|       SHELL-TER_form_8.jpg
+|       SHELL-TER_graph_1.jpg
+|       SHELL-TER_graph_2.jpg
 |       SHELL-TER_model.JPG
-|       SHELL-TER_Site_1.jpg
-|       SHELL-TER_Site_2.jpg
-|       SHELL-TER_Site_3.jpg
+|       SHELL-TER_site_1.jpg
+|       SHELL-TER_site_2.jpg
+|       SHELL-TER_site_3.jpg
 |       
 +---Architecture_4_Trumansburg Library
 |       Trumansburg Library_axon_1.jpg
@@ -78,6 +78,14 @@ C:\USERS\ROBOSEN\DOCUMENTS\GITHUB\PORTFOLIO-ASSETS
 |       Trumansburg Library_section_1.png
 |       Trumansburg Library_section_2.jpg
 |       Trumansburg Library_site.png
+|       
++---Goods
+|       TCG Coins-Pokemon_1.JPEG
+|       TCG Coins-YGO_1.JPEG
+|       TCG Coins-YGO_2.JPEG
+|       TCG Coins-YGO_3.JPEG
+|       TCG Coins-YGO_4.JPEG
+|       TCG Playmat-YGO_1.JPEG
 |       
 +---Illustration
 |       Barbatos Lups Rex.jpg
@@ -95,31 +103,41 @@ C:\USERS\ROBOSEN\DOCUMENTS\GITHUB\PORTFOLIO-ASSETS
 |       
 +---Robotic Construction_1_Closed Loop
 |       Closed Loop_cover.jpg
-|       Closed Loop_Diagrams_1.png
-|       Closed Loop_Diagrams_2.jpg
-|       Closed Loop_Diagrams_3.jpg
-|       Closed Loop_Diagrams_4.jpg
-|       Closed Loop_Diagrams_5.jpg
-|       Closed Loop_Diagrams_6.jpg
-|       Closed Loop_Diagrams_7.jpg
-|       Closed Loop_Document_1.jpg
-|       Closed Loop_Document_2.jpg
-|       Closed Loop_Document_3.jpg
-|       Closed Loop_Document_4.jpg
-|       Closed Loop_Document_5.jpg
+|       Closed Loop_diagram_1.png
+|       Closed Loop_diagram_2.jpg
+|       Closed Loop_diagram_3.jpg
+|       Closed Loop_diagram_4.jpg
+|       Closed Loop_diagram_5.jpg
+|       Closed Loop_diagram_6.jpg
+|       Closed Loop_diagram_7.jpg
+|       Closed Loop_document_1.jpg
+|       Closed Loop_document_2.jpg
+|       Closed Loop_document_3.jpg
+|       Closed Loop_document_4.jpg
+|       Closed Loop_document_5.jpg
 |       
 +---Robotic Construction_2_The Column
 |       The Column_cover.jpg
-|       The Column_Diagrams_1.png
-|       The Column_Diagrams_2.png
-|       The Column_Document_1.jpg
-|       The Column_Document_2.jpg
-|       The Column_Document_3.jpg
-|       The Column_Document_4.JPG
-|       The Column_Document_5.png
-|       The Column_Document_6.png
-|       The Column_Document_7.png
-|       The Column_Document_8.png
+|       The Column_diagram_1.png
+|       The Column_diagram_2.png
+|       The Column_document_1.jpg
+|       The Column_document_2.jpg
+|       The Column_document_3.jpg
+|       The Column_document_4.JPG
+|       The Column_document_5.png
+|       The Column_document_6.png
+|       The Column_document_7.png
+|       The Column_document_8.png
+|       
++---Robotic Construction_3_Folding Joint
+|       Folding Joint_cover.png
+|       Folding Joint_diagram_1.jpg
+|       Folding Joint_diagram_2.jpg
+|       Folding Joint_document_1.png
+|       Folding Joint_document_2.png
+|       Folding Joint_document_3.png
+|       Folding Joint_document_4.png
+|       Folding Joint_document_5.png
 |       
 +---Scale Model_1_Ex-S Gundam
 |       HGUC Ex-S Gundam_cover.png

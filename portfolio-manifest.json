@@ -1,6 +1,6 @@
 {
 "version": 1,
-"generatedAt": "2026-06-25T00:00:00Z",
+"generatedAt": "2026-06-29T00:00:00Z",
 "root": ".",
 "categories": [
 {
@@ -112,26 +112,26 @@
 "Architecture_3_SHELL-TER/SHELL-TER_axon_1.jpg",
 "Architecture_3_SHELL-TER/SHELL-TER_axon_2.jpg",
 "Architecture_3_SHELL-TER/SHELL-TER_axon_3.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Site_1.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Site_2.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Site_3.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_site_1.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_site_2.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_site_3.jpg",
 "Architecture_3_SHELL-TER/SHELL-TER_model.JPG",
-"Architecture_3_SHELL-TER/SHELL-TER_Demo_1.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Demo_2.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Demo_3.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Diagram_1.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Diagram_2.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Diagram_3.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Form_1.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Form_2.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Form_3.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Form_4.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Form_5.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Form_6.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Form_7.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Form_8.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Graph_1.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_Graph_2.jpg"
+"Architecture_3_SHELL-TER/SHELL-TER_demo_1.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_demo_2.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_demo_3.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_diagram_1.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_diagram_2.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_diagram_3.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_form_1.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_form_2.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_form_3.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_form_4.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_form_5.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_form_6.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_form_7.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_form_8.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_graph_1.jpg",
+"Architecture_3_SHELL-TER/SHELL-TER_graph_2.jpg"
 ],
 "kind": "project"
 },
@@ -172,18 +172,18 @@
 "description": "",
 "images": [
 "Robotic Construction_1_Closed Loop/Closed Loop_cover.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_Diagrams_1.png",
-"Robotic Construction_1_Closed Loop/Closed Loop_Diagrams_2.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_Diagrams_3.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_Diagrams_4.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_Diagrams_5.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_Diagrams_6.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_Diagrams_7.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_Document_1.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_Document_2.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_Document_3.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_Document_4.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_Document_5.jpg"
+"Robotic Construction_1_Closed Loop/Closed Loop_diagram_1.png",
+"Robotic Construction_1_Closed Loop/Closed Loop_diagram_2.jpg",
+"Robotic Construction_1_Closed Loop/Closed Loop_diagram_3.jpg",
+"Robotic Construction_1_Closed Loop/Closed Loop_diagram_4.jpg",
+"Robotic Construction_1_Closed Loop/Closed Loop_diagram_5.jpg",
+"Robotic Construction_1_Closed Loop/Closed Loop_diagram_6.jpg",
+"Robotic Construction_1_Closed Loop/Closed Loop_diagram_7.jpg",
+"Robotic Construction_1_Closed Loop/Closed Loop_document_1.jpg",
+"Robotic Construction_1_Closed Loop/Closed Loop_document_2.jpg",
+"Robotic Construction_1_Closed Loop/Closed Loop_document_3.jpg",
+"Robotic Construction_1_Closed Loop/Closed Loop_document_4.jpg",
+"Robotic Construction_1_Closed Loop/Closed Loop_document_5.jpg"
 ],
 "kind": "project"
 },
@@ -197,16 +197,36 @@
 "description": "",
 "images": [
 "Robotic Construction_2_The Column/The Column_cover.jpg",
-"Robotic Construction_2_The Column/The Column_Diagrams_1.png",
-"Robotic Construction_2_The Column/The Column_Diagrams_2.png",
-"Robotic Construction_2_The Column/The Column_Document_1.jpg",
-"Robotic Construction_2_The Column/The Column_Document_2.jpg",
-"Robotic Construction_2_The Column/The Column_Document_3.jpg",
-"Robotic Construction_2_The Column/The Column_Document_4.JPG",
-"Robotic Construction_2_The Column/The Column_Document_5.png",
-"Robotic Construction_2_The Column/The Column_Document_6.png",
-"Robotic Construction_2_The Column/The Column_Document_7.png",
-"Robotic Construction_2_The Column/The Column_Document_8.png"
+"Robotic Construction_2_The Column/The Column_diagram_1.png",
+"Robotic Construction_2_The Column/The Column_diagram_2.png",
+"Robotic Construction_2_The Column/The Column_document_1.jpg",
+"Robotic Construction_2_The Column/The Column_document_2.jpg",
+"Robotic Construction_2_The Column/The Column_document_3.jpg",
+"Robotic Construction_2_The Column/The Column_document_4.JPG",
+"Robotic Construction_2_The Column/The Column_document_5.png",
+"Robotic Construction_2_The Column/The Column_document_6.png",
+"Robotic Construction_2_The Column/The Column_document_7.png",
+"Robotic Construction_2_The Column/The Column_document_8.png"
+],
+"kind": "project"
+},
+{
+"id": "robotic-construction-3-folding-joint",
+"title": "Folding Joint",
+"category": "Robotic Construction",
+"categoryKey": "robotic",
+"year": "2024",
+"cover": "Robotic Construction_3_Folding Joint/Folding Joint_cover.png",
+"description": "",
+"images": [
+"Robotic Construction_3_Folding Joint/Folding Joint_cover.png",
+"Robotic Construction_3_Folding Joint/Folding Joint_diagram_1.jpg",
+"Robotic Construction_3_Folding Joint/Folding Joint_diagram_2.jpg",
+"Robotic Construction_3_Folding Joint/Folding Joint_document_1.png",
+"Robotic Construction_3_Folding Joint/Folding Joint_document_2.png",
+"Robotic Construction_3_Folding Joint/Folding Joint_document_3.png",
+"Robotic Construction_3_Folding Joint/Folding Joint_document_4.png",
+"Robotic Construction_3_Folding Joint/Folding Joint_document_5.png"
 ],
 "kind": "project"
 }
@@ -368,7 +388,7 @@
 },
 {
 "id": "illustration-calibarn-aerial",
-"title": "Calibarn -Aerial-",
+"title": "Calibarn Aerial",
 "category": "Illustration",
 "categoryKey": "illustration",
 "year": "",
@@ -462,6 +482,49 @@
 "kind": "illustration"
 }
 ],
-"goods": []
+"goods": [
+{
+"id": "goods-tcg-coins-pokemon",
+"title": "TCG Coins Pokemon",
+"category": "Goods",
+"categoryKey": "goods",
+"year": "",
+"cover": "Goods/TCG Coins-Pokemon_1.JPEG",
+"description": "",
+"images": [
+"Goods/TCG Coins-Pokemon_1.JPEG"
+],
+"kind": "illustration"
+},
+{
+"id": "goods-tcg-coins-ygo",
+"title": "TCG Coins YGO",
+"category": "Goods",
+"categoryKey": "goods",
+"year": "",
+"cover": "Goods/TCG Coins-YGO_1.JPEG",
+"description": "",
+"images": [
+"Goods/TCG Coins-YGO_1.JPEG",
+"Goods/TCG Coins-YGO_2.JPEG",
+"Goods/TCG Coins-YGO_3.JPEG",
+"Goods/TCG Coins-YGO_4.JPEG"
+],
+"kind": "illustration"
+},
+{
+"id": "goods-tcg-playmat-ygo",
+"title": "TCG Playmat YGO",
+"category": "Goods",
+"categoryKey": "goods",
+"year": "",
+"cover": "Goods/TCG Playmat-YGO_1.JPEG",
+"description": "",
+"images": [
+"Goods/TCG Playmat-YGO_1.JPEG"
+],
+"kind": "illustration"
+}
+]
 }
 }
