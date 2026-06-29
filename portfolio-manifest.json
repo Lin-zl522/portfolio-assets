@@ -1,526 +1,553 @@
 {
-"version": 1,
-"generatedAt": "2026-06-29T00:00:00Z",
-"root": ".",
-"categories": [
-{
-"key": "architecture",
-"title": {
-"zh": "建筑",
-"en": "Architecture"
-},
-"coverStem": "Architecture_cover",
-"image": "Architecture_cover.jpg"
-},
-{
-"key": "robotic",
-"title": {
-"zh": "机器人建造",
-"en": "Robotic Construction"
-},
-"coverStem": "Robotic Construction_cover",
-"image": "Robotic Construction_cover.jpg"
-},
-{
-"key": "model",
-"title": {
-"zh": "实体模型",
-"en": "Scale Model"
-},
-"coverStem": "Scale Model_cover",
-"image": "Scale Model_cover.png"
-},
-{
-"key": "illustration",
-"title": {
-"zh": "插画",
-"en": "Illustration"
-},
-"coverStem": "Illustration_cover",
-"image": "Illustration_cover.JPG"
-},
-{
-"key": "goods",
-"title": {
-"zh": "产品",
-"en": "Goods"
-},
-"coverStem": "Goods_cover",
-"image": "Goods_cover.JPEG"
-}
-],
-"projectsByCategory": {
-"architecture": [
-{
-"id": "architecture-1-closing-tents",
-"title": "Closing Tents",
-"category": "Architecture",
-"categoryKey": "architecture",
-"year": "2024",
-"cover": "Architecture_1_Closing Tents/Closing Tents_cover.jpg",
-"description": "",
-"images": [
-"Architecture_1_Closing Tents/Closing Tents_cover.jpg",
-"Architecture_1_Closing Tents/Closing Tents_render_l_1.jpg",
-"Architecture_1_Closing Tents/Closing Tents_render_l_2.png",
-"Architecture_1_Closing Tents/Closing Tents_model_m_1.png",
-"Architecture_1_Closing Tents/Closing Tents_model_m_2.png",
-"Architecture_1_Closing Tents/Closing Tents_model_m_3.png",
-"Architecture_1_Closing Tents/Closing Tents_model_m_4.png",
-"Architecture_1_Closing Tents/Closing Tents_model_plan_l_1.png",
-"Architecture_1_Closing Tents/Closing Tents_site_l_1.png"
-],
-"kind": "project"
-},
-{
-"id": "architecture-2-grow-as-you-go",
-"title": "Grow-as-You-Go",
-"category": "Architecture",
-"categoryKey": "architecture",
-"year": "2024",
-"cover": "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_cover.jpg",
-"description": "",
-"images": [
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_cover.jpg",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_render_l_4.jpg",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_render_s_1.jpg",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_render_s_2.jpg",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_render_s_3.jpg",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_m_1.JPG",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_m_2.JPG",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_m_3.JPG",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_m_4.JPG",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_m_5.JPG",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_axon_l_1.jpg",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_axon_l_2.jpg",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_l_plan_1.png",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_section_m_1.png",
-"Architecture_2_Grow-as-You-Go/Grow-as-You-Go_section_m_2.png"
-],
-"kind": "project"
-},
-{
-"id": "architecture-3-shell-ter",
-"title": "SHELL-TER",
-"category": "Architecture",
-"categoryKey": "architecture",
-"year": "2025",
-"cover": "Architecture_3_SHELL-TER/SHELL-TER_cover.jpg",
-"description": "",
-"images": [
-"Architecture_3_SHELL-TER/SHELL-TER_cover.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_render_l_1.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_render_l_2.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_model_m_1.JPG",
-"Architecture_3_SHELL-TER/SHELL-TER_model_m_2.JPG",
-"Architecture_3_SHELL-TER/SHELL-TER_model_m_3.JPG",
-"Architecture_3_SHELL-TER/SHELL-TER_model_m_4.JPG",
-"Architecture_3_SHELL-TER/SHELL-TER_site_l_1.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_axon_l_1.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_section_s_1.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_section_s_2.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_section_s_3.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_1.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_2.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_3.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_4.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_5.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_6.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_7.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_8.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_9.jpg",
-"Architecture_3_SHELL-TER/SHELL-TER_diagram_m_10.jpg"
-],
-"kind": "project"
-},
-{
-"id": "architecture-4-trumansburg-library",
-"title": "Trumansburg Library",
-"category": "Architecture",
-"categoryKey": "architecture",
-"year": "2024",
-"cover": "Architecture_4_Trumansburg Library/Trumansburg Library_cover.jpg",
-"description": "",
-"images": [
-"Architecture_4_Trumansburg Library/Trumansburg Library_cover.jpg",
-"Architecture_4_Trumansburg Library/Trumansburg Library_render_l_1.jpg",
-"Architecture_4_Trumansburg Library/Trumansburg Library_render_l_2.jpg",
-"Architecture_4_Trumansburg Library/Trumansburg Library_model_m_1.jpg",
-"Architecture_4_Trumansburg Library/Trumansburg Library_model_m_2.jpg",
-"Architecture_4_Trumansburg Library/Trumansburg Library_model_m_3.jpg",
-"Architecture_4_Trumansburg Library/Trumansburg Library_model_m_4.jpg",
-"Architecture_4_Trumansburg Library/Trumansburg Library_site_l_1.png",
-"Architecture_4_Trumansburg Library/Trumansburg Library_plan_l_1.png",
-"Architecture_4_Trumansburg Library/Trumansburg Library_section_m_1.png",
-"Architecture_4_Trumansburg Library/Trumansburg Library_section_m_2.jpg",
-"Architecture_4_Trumansburg Library/Trumansburg Library_diagram_m_1.png",
-"Architecture_4_Trumansburg Library/Trumansburg Library_diagram_m_2.png"
-],
-"kind": "project"
-}
-],
-"robotic": [
-{
-"id": "robotic-construction-1-closed-loop",
-"title": "Closed Loop",
-"category": "Robotic Construction",
-"categoryKey": "robotic",
-"year": "2024",
-"cover": "Robotic Construction_1_Closed Loop/Closed Loop_cover.jpg",
-"description": "",
-"images": [
-"Robotic Construction_1_Closed Loop/Closed Loop_cover.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_document_l_1.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_document_l_2.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_document_s_3.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_document_s_4.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_document_s_5.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_diagram_l_1.png",
-"Robotic Construction_1_Closed Loop/Closed Loop_diagram_s_2.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_diagram_s_3.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_diagram_s_4.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_diagram_s_5.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_diagram_s_6.jpg",
-"Robotic Construction_1_Closed Loop/Closed Loop_diagram_s_7.jpg"
-],
-"kind": "project"
-},
-{
-"id": "robotic-construction-2-the-column",
-"title": "The Column",
-"category": "Robotic Construction",
-"categoryKey": "robotic",
-"year": "2024",
-"cover": "Robotic Construction_2_The Column/The Column_cover.jpg",
-"description": "",
-"images": [
-"Robotic Construction_2_The Column/The Column_cover.jpg",
-"Robotic Construction_2_The Column/The Column_document_l_1.jpg",
-"Robotic Construction_2_The Column/The Column_document_m_2.jpg",
-"Robotic Construction_2_The Column/The Column_document_m_3.jpg",
-"Robotic Construction_2_The Column/The Column_document_m_4.JPG",
-"Robotic Construction_2_The Column/The Column_document_m_5.png",
-"Robotic Construction_2_The Column/The Column_diagram_m_1.png",
-"Robotic Construction_2_The Column/The Column_diagram_m_2.png",
-"Robotic Construction_2_The Column/The Column_process_s_1.png",
-"Robotic Construction_2_The Column/The Column_process_s_2.png",
-"Robotic Construction_2_The Column/The Column_process_s_3.png"
-],
-"kind": "project"
-},
-{
-"id": "robotic-construction-3-folding-joint",
-"title": "Folding Joint",
-"category": "Robotic Construction",
-"categoryKey": "robotic",
-"year": "2024",
-"cover": "Robotic Construction_3_Folding Joint/Folding Joint_cover.png",
-"description": "",
-"images": [
-"Robotic Construction_3_Folding Joint/Folding Joint_cover.png",
-"Robotic Construction_3_Folding Joint/Folding Joint_document_l_1.png",
-"Robotic Construction_3_Folding Joint/Folding Joint_document_m_2.png",
-"Robotic Construction_3_Folding Joint/Folding Joint_document_m_3.png",
-"Robotic Construction_3_Folding Joint/Folding Joint_document_m_4.png",
-"Robotic Construction_3_Folding Joint/Folding Joint_document_m_5.png",
-"Robotic Construction_3_Folding Joint/Folding Joint_diagram_l_1.jpg",
-"Robotic Construction_3_Folding Joint/Folding Joint_diagram_l_2.jpg"
-],
-"kind": "project"
-}
-],
-"model": [
-{
-"id": "scale-model-1-ex-s-gundam",
-"title": "Ex-S Gundam",
-"category": "Scale Model",
-"categoryKey": "model",
-"year": "2024",
-"cover": "Scale Model_1_Ex-S Gundam/HGUC Ex-S Gundam_cover.png",
-"description": "",
-"images": [
-"Scale Model_1_Ex-S Gundam/HGUC Ex-S Gundam_cover.png",
-"Scale Model_1_Ex-S Gundam/HGUC Ex-S Gundam_document_l_3.png",
-"Scale Model_1_Ex-S Gundam/HGUC Ex-S Gundam_document_m_1.png",
-"Scale Model_1_Ex-S Gundam/HGUC Ex-S Gundam_document_m_2.png",
-"Scale Model_1_Ex-S Gundam/HGUC Ex-S Gundam_process_m_1.jpeg",
-"Scale Model_1_Ex-S Gundam/HGUC Ex-S Gundam_process_m_2.jpeg"
-],
-"kind": "project"
-},
-{
-"id": "scale-model-2-gundam-barbatos",
-"title": "Gundam Barbatos",
-"category": "Scale Model",
-"categoryKey": "model",
-"year": "2024",
-"cover": "Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_cover.jpg",
-"description": "",
-"images": [
-"Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_cover.jpg",
-"Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_document_l_1.jpg",
-"Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_document_m_2.jpg",
-"Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_document_m_3.jpg",
-"Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_document_m_4.jpg",
-"Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_document_m_5.jpg",
-"Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_process_xs_1.jpg",
-"Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_process_xs_2.png",
-"Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_process_xs_3.png",
-"Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_process_xs_4.png"
-],
-"kind": "project"
-},
-{
-"id": "scale-model-3-zeta-gundam-head",
-"title": "Zeta Gundam Head",
-"category": "Scale Model",
-"categoryKey": "model",
-"year": "2024",
-"cover": "Scale Model_3_Zeta Gundam Head/Model_Zeta Gundam Head_cover.png",
-"description": "",
-"images": [
-"Scale Model_3_Zeta Gundam Head/Model_Zeta Gundam Head_cover.png",
-"Scale Model_3_Zeta Gundam Head/Model_Zeta Gundam Head_document_s_2.png",
-"Scale Model_3_Zeta Gundam Head/Model_Zeta Gundam Head_process_s_1.png",
-"Scale Model_3_Zeta Gundam Head/Model_Zeta Gundam Head_process_s_2.png"
-],
-"kind": "project"
-},
-{
-"id": "scale-model-4-turn-a-gundam",
-"title": "Turn A Gundam",
-"category": "Scale Model",
-"categoryKey": "model",
-"year": "2024",
-"cover": "Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_cover.jpg",
-"description": "",
-"images": [
-"Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_cover.jpg",
-"Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_document_m_1.jpg",
-"Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_document_m_2.jpg",
-"Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_document_m_3.jpg",
-"Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_document_m_4.jpg",
-"Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_document_m_5.jpg",
-"Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_document_m_6.jpg",
-"Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_process_xs_1.jpeg",
-"Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_process_xs_2.jpeg",
-"Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_process_xs_3.jpeg"
-],
-"kind": "project"
-},
-{
-"id": "scale-model-5-nowhere-bus",
-"title": "Nowhere Bus",
-"category": "Scale Model",
-"categoryKey": "model",
-"year": "2024",
-"cover": "Scale Model_5_Nowhere Bus/Nowhere Bus_cover.JPEG",
-"description": "",
-"images": [
-"Scale Model_5_Nowhere Bus/Nowhere Bus_cover.JPEG",
-"Scale Model_5_Nowhere Bus/Nowhere Bus_document_m_1.png",
-"Scale Model_5_Nowhere Bus/Nowhere Bus_document_m_2.JPEG",
-"Scale Model_5_Nowhere Bus/Nowhere Bus_model_s_1.png",
-"Scale Model_5_Nowhere Bus/Nowhere Bus_model_s_2.png",
-"Scale Model_5_Nowhere Bus/Nowhere Bus_model_s_3.png"
-],
-"kind": "project"
-},
-{
-"id": "scale-model-6-unicorn-gundam",
-"title": "Unicorn Gundam",
-"category": "Scale Model",
-"categoryKey": "model",
-"year": "2024",
-"cover": "Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_cover.jpeg",
-"description": "",
-"images": [
-"Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_cover.jpeg",
-"Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_document_m_1.jpeg",
-"Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_document_m_2.jpeg",
-"Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_document_m_3.jpeg",
-"Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_document_m_4.jpeg",
-"Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_process_s_1.jpeg",
-"Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_process_s_2.jpeg",
-"Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_process_s_3.jpeg"
-],
-"kind": "project"
-},
-{
-"id": "scale-model-7-gm-sniper-ver-bft",
-"title": "GM Sniper Ver.BFT",
-"category": "Scale Model",
-"categoryKey": "model",
-"year": "2024",
-"cover": "Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_cover.png",
-"description": "",
-"images": [
-"Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_cover.png",
-"Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_document_l_5.png",
-"Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_document_m_1.png",
-"Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_document_m_2.png",
-"Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_document_m_3.png",
-"Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_document_m_4.png",
-"Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_process_s_1.jpg",
-"Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_process_s_2.jpeg",
-"Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_process_s_3.jpeg"
-],
-"kind": "project"
-}
-],
-"illustration": [
-{
-"id": "illustration-barbatos-lups-rex",
-"title": "Barbatos Lups Rex",
-"category": "Illustration",
-"categoryKey": "illustration",
-"year": "",
-"cover": "Illustration/Barbatos Lups Rex.jpg",
-"description": "",
-"images": [
-"Illustration/Barbatos Lups Rex.jpg"
-],
-"kind": "illustration"
-},
-{
-"id": "illustration-calibarn-aerial",
-"title": "Calibarn Aerial",
-"category": "Illustration",
-"categoryKey": "illustration",
-"year": "",
-"cover": "Illustration/Calibarn -Aerial-.PNG",
-"description": "",
-"images": [
-"Illustration/Calibarn -Aerial-.PNG"
-],
-"kind": "illustration"
-},
-{
-"id": "illustration-gfred",
-"title": "GFred",
-"category": "Illustration",
-"categoryKey": "illustration",
-"year": "",
-"cover": "Illustration/GFred_1.jpg",
-"description": "",
-"images": [
-"Illustration/GFred_1.jpg",
-"Illustration/GFred_2.PNG"
-],
-"kind": "illustration"
-},
-{
-"id": "illustration-gquuuuuux",
-"title": "GQuuuuuuX",
-"category": "Illustration",
-"categoryKey": "illustration",
-"year": "",
-"cover": "Illustration/GQuuuuuuX_1.JPG",
-"description": "",
-"images": [
-"Illustration/GQuuuuuuX_1.JPG",
-"Illustration/GQuuuuuuX_2.JPG"
-],
-"kind": "illustration"
-},
-{
-"id": "illustration-optimus-prime",
-"title": "Optimus Prime",
-"category": "Illustration",
-"categoryKey": "illustration",
-"year": "",
-"cover": "Illustration/Optimus Prime_1.JPG",
-"description": "",
-"images": [
-"Illustration/Optimus Prime_1.JPG",
-"Illustration/Optimus Prime_2.JPG"
-],
-"kind": "illustration"
-},
-{
-"id": "illustration-rising-freedom",
-"title": "Rising Freedom",
-"category": "Illustration",
-"categoryKey": "illustration",
-"year": "",
-"cover": "Illustration/Rising Freedom.JPG",
-"description": "",
-"images": [
-"Illustration/Rising Freedom.JPG"
-],
-"kind": "illustration"
-},
-{
-"id": "illustration-star-striker",
-"title": "Star Striker",
-"category": "Illustration",
-"categoryKey": "illustration",
-"year": "",
-"cover": "Illustration/Star Striker_1.JPEG",
-"description": "",
-"images": [
-"Illustration/Star Striker_1.JPEG",
-"Illustration/Star Striker_2.jpg"
-],
-"kind": "illustration"
-},
-{
-"id": "illustration-untitled",
-"title": "Untitled",
-"category": "Illustration",
-"categoryKey": "illustration",
-"year": "",
-"cover": "Illustration/Untitled.JPG",
-"description": "",
-"images": [
-"Illustration/Untitled.JPG"
-],
-"kind": "illustration"
-}
-],
-"goods": [
-{
-"id": "goods-tcg-coins-pokemon",
-"title": "TCG Coins Pokemon",
-"category": "Goods",
-"categoryKey": "goods",
-"year": "",
-"cover": "Goods/TCG Coins-Pokemon_1.JPEG",
-"description": "",
-"images": [
-"Goods/TCG Coins-Pokemon_1.JPEG"
-],
-"kind": "illustration"
-},
-{
-"id": "goods-tcg-coins-ygo",
-"title": "TCG Coins YGO",
-"category": "Goods",
-"categoryKey": "goods",
-"year": "",
-"cover": "Goods/TCG Coins-YGO_1.JPEG",
-"description": "",
-"images": [
-"Goods/TCG Coins-YGO_1.JPEG",
-"Goods/TCG Coins-YGO_2.JPEG",
-"Goods/TCG Coins-YGO_3.JPEG",
-"Goods/TCG Coins-YGO_4.JPEG"
-],
-"kind": "illustration"
-},
-{
-"id": "goods-tcg-playmat-ygo",
-"title": "TCG Playmat YGO",
-"category": "Goods",
-"categoryKey": "goods",
-"year": "",
-"cover": "Goods/TCG Playmat-YGO_1.JPEG",
-"description": "",
-"images": [
-"Goods/TCG Playmat-YGO_1.JPEG"
-],
-"kind": "illustration"
-}
-]
-}
+    "version":  1,
+    "generatedAt":  "2026-06-29T10:11:35.8329284Z",
+    "root":  ".",
+    "categories":  [
+                       {
+                           "key":  "architecture",
+                           "title":  {
+                                         "zh":  "建筑",
+                                         "en":  "Architecture"
+                                     },
+                           "coverStem":  "Architecture_cover",
+                           "image":  "Architecture_cover.jpg"
+                       },
+                       {
+                           "key":  "robotic",
+                           "title":  {
+                                         "zh":  "机器人建造",
+                                         "en":  "Robotic Construction"
+                                     },
+                           "coverStem":  "Robotic Construction_cover",
+                           "image":  "Robotic Construction_cover.jpg"
+                       },
+                       {
+                           "key":  "model",
+                           "title":  {
+                                         "zh":  "实体模型",
+                                         "en":  "Scale Model"
+                                     },
+                           "coverStem":  "Scale Model_cover",
+                           "image":  "Scale Model_cover.png"
+                       },
+                       {
+                           "key":  "illustration",
+                           "title":  {
+                                         "zh":  "插画",
+                                         "en":  "Illustration"
+                                     },
+                           "coverStem":  "Illustration_cover",
+                           "image":  "Illustration_cover.JPG"
+                       },
+                       {
+                           "key":  "goods",
+                           "title":  {
+                                         "zh":  "产品",
+                                         "en":  "Goods"
+                                     },
+                           "coverStem":  "Goods_cover",
+                           "image":  "Goods_cover.JPEG"
+                       }
+                   ],
+    "projectsByCategory":  {
+                               "architecture":  [
+                                                    {
+                                                        "id":  "architecture-1-closing-tents",
+                                                        "title":  "Closing Tents",
+                                                        "category":  "Architecture",
+                                                        "categoryKey":  "architecture",
+                                                        "year":  "2024",
+                                                        "cover":  "Architecture_1_Closing Tents/Closing Tents_cover.jpg",
+                                                        "description":  "",
+                                                        "images":  [
+                                                                       "Architecture_1_Closing Tents/Closing Tents_cover.jpg",
+                                                                       "Architecture_1_Closing Tents/Closing Tents_render_l_1.jpg",
+                                                                       "Architecture_1_Closing Tents/Closing Tents_render_l_2.png",
+                                                                       "Architecture_1_Closing Tents/Closing Tents_model_m_1.png",
+                                                                       "Architecture_1_Closing Tents/Closing Tents_model_plan_l_1.png",
+                                                                       "Architecture_1_Closing Tents/Closing Tents_model_m_2.png",
+                                                                       "Architecture_1_Closing Tents/Closing Tents_model_m_3.png",
+                                                                       "Architecture_1_Closing Tents/Closing Tents_model_m_4.png",
+                                                                       "Architecture_1_Closing Tents/Closing Tents_site_l_1.png"
+                                                                   ],
+                                                        "kind":  "project"
+                                                    },
+                                                    {
+                                                        "id":  "architecture-2-grow-as-you-go",
+                                                        "title":  "Grow as You Go",
+                                                        "category":  "Architecture",
+                                                        "categoryKey":  "architecture",
+                                                        "year":  "2024",
+                                                        "cover":  "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_cover.jpg",
+                                                        "description":  "",
+                                                        "images":  [
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_cover.jpg",
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_render_s_1.jpg",
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_render_s_2.jpg",
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_render_s_3.jpg",
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_render_l_4.jpg",
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_m_1.JPG",
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_m_2.JPG",
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_m_3.JPG",
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_m_4.JPG",
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_model_m_5.JPG",
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_axon_l_1.jpg",
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_axon_l_2.jpg",
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_l_plan_1.png",
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_section_m_1.png",
+                                                                       "Architecture_2_Grow-as-You-Go/Grow-as-You-Go_section_m_2.png"
+                                                                   ],
+                                                        "kind":  "project"
+                                                    },
+                                                    {
+                                                        "id":  "architecture-3-shell-ter",
+                                                        "title":  "SHELL TER",
+                                                        "category":  "Architecture",
+                                                        "categoryKey":  "architecture",
+                                                        "year":  "2025",
+                                                        "cover":  "Architecture_3_SHELL-TER/SHELL-TER_cover.jpg",
+                                                        "description":  "",
+                                                        "images":  [
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_cover.jpg",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_render_l_1.jpg",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_render_l_2.jpg",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_model_m_1.JPG",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_model_m_2.JPG",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_model_m_3.JPG",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_model_m_4.JPG",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_site_l_1.jpg",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_axon_l_1.jpg",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_section_s_1.jpg",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_section_s_2.jpg",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_section_s_3.jpg",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_diagram_m_1.jpg",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_diagram_m_2.jpg",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_diagram_m_3.jpg",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_diagram_m_4.jpg",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_diagram_m_5.jpg",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_diagram_m_6.jpg",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_diagram_m_7.jpg",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_diagram_m_8.jpg",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_diagram_m_9.jpg",
+                                                                       "Architecture_3_SHELL-TER/SHELL-TER_diagram_m_10.jpg"
+                                                                   ],
+                                                        "kind":  "project"
+                                                    },
+                                                    {
+                                                        "id":  "architecture-4-trumansburg-library",
+                                                        "title":  "Trumansburg Library",
+                                                        "category":  "Architecture",
+                                                        "categoryKey":  "architecture",
+                                                        "year":  "2024",
+                                                        "cover":  "Architecture_4_Trumansburg Library/Trumansburg Library_cover.jpg",
+                                                        "description":  "",
+                                                        "images":  [
+                                                                       "Architecture_4_Trumansburg Library/Trumansburg Library_cover.jpg",
+                                                                       "Architecture_4_Trumansburg Library/Trumansburg Library_render_l_1.jpg",
+                                                                       "Architecture_4_Trumansburg Library/Trumansburg Library_render_l_2.jpg",
+                                                                       "Architecture_4_Trumansburg Library/Trumansburg Library_model_m_1.jpg",
+                                                                       "Architecture_4_Trumansburg Library/Trumansburg Library_model_m_2.jpg",
+                                                                       "Architecture_4_Trumansburg Library/Trumansburg Library_model_m_3.jpg",
+                                                                       "Architecture_4_Trumansburg Library/Trumansburg Library_model_m_4.jpg",
+                                                                       "Architecture_4_Trumansburg Library/Trumansburg Library_site_l_1.png",
+                                                                       "Architecture_4_Trumansburg Library/Trumansburg Library_plan_l_1.png",
+                                                                       "Architecture_4_Trumansburg Library/Trumansburg Library_section_m_1.png",
+                                                                       "Architecture_4_Trumansburg Library/Trumansburg Library_section_m_2.jpg",
+                                                                       "Architecture_4_Trumansburg Library/Trumansburg Library_diagram_m_1.png",
+                                                                       "Architecture_4_Trumansburg Library/Trumansburg Library_diagram_m_2.png"
+                                                                   ],
+                                                        "kind":  "project"
+                                                    },
+                                                    {
+                                                        "id":  "architecture-5-divin-acionnes",
+                                                        "title":  "(DIVIN)ACIONNES",
+                                                        "category":  "Architecture",
+                                                        "categoryKey":  "architecture",
+                                                        "year":  "2024",
+                                                        "cover":  "Architecture_5_(DIVIN)ACIONNES/(DIVIN)ACIONNES_cover.jpg",
+                                                        "description":  "",
+                                                        "images":  [
+                                                                       "Architecture_5_(DIVIN)ACIONNES/(DIVIN)ACIONNES_cover.jpg",
+                                                                       "Architecture_5_(DIVIN)ACIONNES/(DIVIN)ACIONNES_site_l_1.jpg",
+                                                                       "Architecture_5_(DIVIN)ACIONNES/(DIVIN)ACIONNES_plan_s_1.jpg",
+                                                                       "Architecture_5_(DIVIN)ACIONNES/(DIVIN)ACIONNES_plan_s_2.jpg",
+                                                                       "Architecture_5_(DIVIN)ACIONNES/(DIVIN)ACIONNES_plan_s_3.jpg",
+                                                                       "Architecture_5_(DIVIN)ACIONNES/(DIVIN)ACIONNES_plan_l_4.jpg",
+                                                                       "Architecture_5_(DIVIN)ACIONNES/(DIVIN)ACIONNES_section_l_1.jpg",
+                                                                       "Architecture_5_(DIVIN)ACIONNES/(DIVIN)ACIONNES_process_xs_1.jpg",
+                                                                       "Architecture_5_(DIVIN)ACIONNES/(DIVIN)ACIONNES_process_xs_2.jpg",
+                                                                       "Architecture_5_(DIVIN)ACIONNES/(DIVIN)ACIONNES_process_xs_3.jpg",
+                                                                       "Architecture_5_(DIVIN)ACIONNES/(DIVIN)ACIONNES_process_xs_4.jpg",
+                                                                       "Architecture_5_(DIVIN)ACIONNES/(DIVIN)ACIONNES_process_s_5.jpg",
+                                                                       "Architecture_5_(DIVIN)ACIONNES/(DIVIN)ACIONNES_process_s_6.jpg",
+                                                                       "Architecture_5_(DIVIN)ACIONNES/(DIVIN)ACIONNES_process_s_7.jpg",
+                                                                       "Architecture_5_(DIVIN)ACIONNES/(DIVIN)ACIONNES_process_l_8.jpg"
+                                                                   ],
+                                                        "kind":  "project"
+                                                    }
+                                                ],
+                               "robotic":  [
+                                               {
+                                                   "id":  "robotic-construction-1-closed-loop",
+                                                   "title":  "Closed Loop",
+                                                   "category":  "Robotic Construction",
+                                                   "categoryKey":  "robotic",
+                                                   "year":  "2024",
+                                                   "cover":  "Robotic Construction_1_Closed Loop/Closed Loop_cover.jpg",
+                                                   "description":  "",
+                                                   "images":  [
+                                                                  "Robotic Construction_1_Closed Loop/Closed Loop_cover.jpg",
+                                                                  "Robotic Construction_1_Closed Loop/Closed Loop_document_l_1.jpg",
+                                                                  "Robotic Construction_1_Closed Loop/Closed Loop_document_l_2.jpg",
+                                                                  "Robotic Construction_1_Closed Loop/Closed Loop_document_s_3.jpg",
+                                                                  "Robotic Construction_1_Closed Loop/Closed Loop_document_s_4.jpg",
+                                                                  "Robotic Construction_1_Closed Loop/Closed Loop_document_s_5.jpg",
+                                                                  "Robotic Construction_1_Closed Loop/Closed Loop_diagram_l_1.png",
+                                                                  "Robotic Construction_1_Closed Loop/Closed Loop_diagram_s_2.jpg",
+                                                                  "Robotic Construction_1_Closed Loop/Closed Loop_diagram_s_3.jpg",
+                                                                  "Robotic Construction_1_Closed Loop/Closed Loop_diagram_s_4.jpg",
+                                                                  "Robotic Construction_1_Closed Loop/Closed Loop_diagram_s_5.jpg",
+                                                                  "Robotic Construction_1_Closed Loop/Closed Loop_diagram_s_6.jpg",
+                                                                  "Robotic Construction_1_Closed Loop/Closed Loop_diagram_s_7.jpg"
+                                                              ],
+                                                   "kind":  "project"
+                                               },
+                                               {
+                                                   "id":  "robotic-construction-2-the-column",
+                                                   "title":  "The Column",
+                                                   "category":  "Robotic Construction",
+                                                   "categoryKey":  "robotic",
+                                                   "year":  "2024",
+                                                   "cover":  "Robotic Construction_2_The Column/The Column_cover.jpg",
+                                                   "description":  "",
+                                                   "images":  [
+                                                                  "Robotic Construction_2_The Column/The Column_cover.jpg",
+                                                                  "Robotic Construction_2_The Column/The Column_document_l_1.jpg",
+                                                                  "Robotic Construction_2_The Column/The Column_document_m_2.jpg",
+                                                                  "Robotic Construction_2_The Column/The Column_document_m_3.jpg",
+                                                                  "Robotic Construction_2_The Column/The Column_document_m_4.JPG",
+                                                                  "Robotic Construction_2_The Column/The Column_document_m_5.png",
+                                                                  "Robotic Construction_2_The Column/The Column_diagram_m_1.png",
+                                                                  "Robotic Construction_2_The Column/The Column_process_s_1.png",
+                                                                  "Robotic Construction_2_The Column/The Column_diagram_m_2.png",
+                                                                  "Robotic Construction_2_The Column/The Column_process_s_2.png",
+                                                                  "Robotic Construction_2_The Column/The Column_process_s_3.png"
+                                                              ],
+                                                   "kind":  "project"
+                                               },
+                                               {
+                                                   "id":  "robotic-construction-3-folding-joint",
+                                                   "title":  "Folding Joint",
+                                                   "category":  "Robotic Construction",
+                                                   "categoryKey":  "robotic",
+                                                   "year":  "2024",
+                                                   "cover":  "Robotic Construction_3_Folding Joint/Folding Joint_cover.png",
+                                                   "description":  "",
+                                                   "images":  [
+                                                                  "Robotic Construction_3_Folding Joint/Folding Joint_cover.png",
+                                                                  "Robotic Construction_3_Folding Joint/Folding Joint_document_l_1.png",
+                                                                  "Robotic Construction_3_Folding Joint/Folding Joint_document_m_2.png",
+                                                                  "Robotic Construction_3_Folding Joint/Folding Joint_document_m_3.png",
+                                                                  "Robotic Construction_3_Folding Joint/Folding Joint_document_m_4.png",
+                                                                  "Robotic Construction_3_Folding Joint/Folding Joint_document_m_5.png",
+                                                                  "Robotic Construction_3_Folding Joint/Folding Joint_diagram_l_1.jpg",
+                                                                  "Robotic Construction_3_Folding Joint/Folding Joint_diagram_l_2.jpg"
+                                                              ],
+                                                   "kind":  "project"
+                                               }
+                                           ],
+                               "model":  [
+                                             {
+                                                 "id":  "scale-model-1-ex-s-gundam",
+                                                 "title":  "Ex S Gundam",
+                                                 "category":  "Scale Model",
+                                                 "categoryKey":  "model",
+                                                 "year":  "2024",
+                                                 "cover":  "Scale Model_1_Ex-S Gundam/HGUC Ex-S Gundam_cover.png",
+                                                 "description":  "",
+                                                 "images":  [
+                                                                "Scale Model_1_Ex-S Gundam/HGUC Ex-S Gundam_cover.png",
+                                                                "Scale Model_1_Ex-S Gundam/HGUC Ex-S Gundam_document_m_1.png",
+                                                                "Scale Model_1_Ex-S Gundam/HGUC Ex-S Gundam_document_m_2.png",
+                                                                "Scale Model_1_Ex-S Gundam/HGUC Ex-S Gundam_document_l_3.png",
+                                                                "Scale Model_1_Ex-S Gundam/HGUC Ex-S Gundam_process_m_1.jpeg",
+                                                                "Scale Model_1_Ex-S Gundam/HGUC Ex-S Gundam_process_m_2.jpeg"
+                                                            ],
+                                                 "kind":  "project"
+                                             },
+                                             {
+                                                 "id":  "scale-model-2-gundam-barbatos",
+                                                 "title":  "Gundam Barbatos",
+                                                 "category":  "Scale Model",
+                                                 "categoryKey":  "model",
+                                                 "year":  "2024",
+                                                 "cover":  "Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_cover.jpg",
+                                                 "description":  "",
+                                                 "images":  [
+                                                                "Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_cover.jpg",
+                                                                "Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_document_l_1.jpg",
+                                                                "Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_document_m_2.jpg",
+                                                                "Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_document_m_3.jpg",
+                                                                "Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_document_m_4.jpg",
+                                                                "Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_document_m_5.jpg",
+                                                                "Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_process_xs_1.jpg",
+                                                                "Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_process_xs_2.png",
+                                                                "Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_process_xs_3.png",
+                                                                "Scale Model_2_Gundam Barbatos/HGIBO Gundam Barbatos_process_xs_4.png"
+                                                            ],
+                                                 "kind":  "project"
+                                             },
+                                             {
+                                                 "id":  "scale-model-3-zeta-gundam-head",
+                                                 "title":  "Zeta Gundam Head",
+                                                 "category":  "Scale Model",
+                                                 "categoryKey":  "model",
+                                                 "year":  "2024",
+                                                 "cover":  "Scale Model_3_Zeta Gundam Head/Model_Zeta Gundam Head_cover.png",
+                                                 "description":  "",
+                                                 "images":  [
+                                                                "Scale Model_3_Zeta Gundam Head/Model_Zeta Gundam Head_cover.png",
+                                                                "Scale Model_3_Zeta Gundam Head/Model_Zeta Gundam Head_document_s_2.png",
+                                                                "Scale Model_3_Zeta Gundam Head/Model_Zeta Gundam Head_process_s_1.png",
+                                                                "Scale Model_3_Zeta Gundam Head/Model_Zeta Gundam Head_process_s_2.png"
+                                                            ],
+                                                 "kind":  "project"
+                                             },
+                                             {
+                                                 "id":  "scale-model-4-turn-a-gundam",
+                                                 "title":  "Turn A Gundam",
+                                                 "category":  "Scale Model",
+                                                 "categoryKey":  "model",
+                                                 "year":  "2024",
+                                                 "cover":  "Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_cover.jpg",
+                                                 "description":  "",
+                                                 "images":  [
+                                                                "Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_cover.jpg",
+                                                                "Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_document_m_1.jpg",
+                                                                "Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_document_m_2.jpg",
+                                                                "Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_document_m_3.jpg",
+                                                                "Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_document_m_4.jpg",
+                                                                "Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_document_m_5.jpg",
+                                                                "Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_document_m_6.jpg",
+                                                                "Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_process_xs_1.jpeg",
+                                                                "Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_process_xs_2.jpeg",
+                                                                "Scale Model_4_Turn A Gundam/HGCC Turn A Gundam_process_xs_3.jpeg"
+                                                            ],
+                                                 "kind":  "project"
+                                             },
+                                             {
+                                                 "id":  "scale-model-5-nowhere-bus",
+                                                 "title":  "Nowhere Bus",
+                                                 "category":  "Scale Model",
+                                                 "categoryKey":  "model",
+                                                 "year":  "2024",
+                                                 "cover":  "Scale Model_5_Nowhere Bus/Nowhere Bus_cover.JPEG",
+                                                 "description":  "",
+                                                 "images":  [
+                                                                "Scale Model_5_Nowhere Bus/Nowhere Bus_cover.JPEG",
+                                                                "Scale Model_5_Nowhere Bus/Nowhere Bus_document_m_1.png",
+                                                                "Scale Model_5_Nowhere Bus/Nowhere Bus_document_m_2.JPEG",
+                                                                "Scale Model_5_Nowhere Bus/Nowhere Bus_model_s_1.png",
+                                                                "Scale Model_5_Nowhere Bus/Nowhere Bus_model_s_2.png",
+                                                                "Scale Model_5_Nowhere Bus/Nowhere Bus_model_s_3.png"
+                                                            ],
+                                                 "kind":  "project"
+                                             },
+                                             {
+                                                 "id":  "scale-model-6-unicorn-gundam",
+                                                 "title":  "Unicorn Gundam",
+                                                 "category":  "Scale Model",
+                                                 "categoryKey":  "model",
+                                                 "year":  "2024",
+                                                 "cover":  "Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_cover.jpeg",
+                                                 "description":  "",
+                                                 "images":  [
+                                                                "Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_cover.jpeg",
+                                                                "Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_document_m_1.jpeg",
+                                                                "Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_document_m_2.jpeg",
+                                                                "Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_document_m_3.jpeg",
+                                                                "Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_document_m_4.jpeg",
+                                                                "Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_process_s_1.jpeg",
+                                                                "Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_process_s_2.jpeg",
+                                                                "Scale Model_6_Unicorn Gundam/HGUC Unicorn Gundam_process_s_3.jpeg"
+                                                            ],
+                                                 "kind":  "project"
+                                             },
+                                             {
+                                                 "id":  "scale-model-7-gm-sniper-ver-bft",
+                                                 "title":  "GM Sniper Ver.BFT",
+                                                 "category":  "Scale Model",
+                                                 "categoryKey":  "model",
+                                                 "year":  "2024",
+                                                 "cover":  "Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_cover.png",
+                                                 "description":  "",
+                                                 "images":  [
+                                                                "Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_cover.png",
+                                                                "Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_document_m_1.png",
+                                                                "Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_document_m_2.png",
+                                                                "Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_document_m_3.png",
+                                                                "Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_document_m_4.png",
+                                                                "Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_document_l_5.png",
+                                                                "Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_process_s_1.jpg",
+                                                                "Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_process_s_2.jpeg",
+                                                                "Scale Model_7_GM Sniper Ver.BFT/GM Sniper Ver.BFT_process_s_3.jpeg"
+                                                            ],
+                                                 "kind":  "project"
+                                             }
+                                         ],
+                               "illustration":  [
+                                                    {
+                                                        "id":  "illustration-barbatos-lups-rex",
+                                                        "title":  "Barbatos Lups Rex",
+                                                        "category":  "Illustration",
+                                                        "categoryKey":  "illustration",
+                                                        "year":  "",
+                                                        "cover":  "Illustration/Barbatos Lups Rex.jpg",
+                                                        "description":  "",
+                                                        "images":  [
+                                                                       "Illustration/Barbatos Lups Rex.jpg"
+                                                                   ],
+                                                        "kind":  "illustration"
+                                                    },
+                                                    {
+                                                        "id":  "illustration-calibarn-aerial",
+                                                        "title":  "Calibarn  Aerial",
+                                                        "category":  "Illustration",
+                                                        "categoryKey":  "illustration",
+                                                        "year":  "",
+                                                        "cover":  "Illustration/Calibarn -Aerial-.PNG",
+                                                        "description":  "",
+                                                        "images":  [
+                                                                       "Illustration/Calibarn -Aerial-.PNG"
+                                                                   ],
+                                                        "kind":  "illustration"
+                                                    },
+                                                    {
+                                                        "id":  "illustration-gfred",
+                                                        "title":  "GFred",
+                                                        "category":  "Illustration",
+                                                        "categoryKey":  "illustration",
+                                                        "year":  "",
+                                                        "cover":  "Illustration/GFred_1.jpg",
+                                                        "description":  "",
+                                                        "images":  [
+                                                                       "Illustration/GFred_1.jpg",
+                                                                       "Illustration/GFred_2.PNG"
+                                                                   ],
+                                                        "kind":  "illustration"
+                                                    },
+                                                    {
+                                                        "id":  "illustration-gquuuuuux",
+                                                        "title":  "GQuuuuuuX",
+                                                        "category":  "Illustration",
+                                                        "categoryKey":  "illustration",
+                                                        "year":  "",
+                                                        "cover":  "Illustration/GQuuuuuuX_1.JPG",
+                                                        "description":  "",
+                                                        "images":  [
+                                                                       "Illustration/GQuuuuuuX_1.JPG",
+                                                                       "Illustration/GQuuuuuuX_2.JPG"
+                                                                   ],
+                                                        "kind":  "illustration"
+                                                    },
+                                                    {
+                                                        "id":  "illustration-optimus-prime",
+                                                        "title":  "Optimus Prime",
+                                                        "category":  "Illustration",
+                                                        "categoryKey":  "illustration",
+                                                        "year":  "",
+                                                        "cover":  "Illustration/Optimus Prime_1.JPG",
+                                                        "description":  "",
+                                                        "images":  [
+                                                                       "Illustration/Optimus Prime_1.JPG",
+                                                                       "Illustration/Optimus Prime_2.JPG"
+                                                                   ],
+                                                        "kind":  "illustration"
+                                                    },
+                                                    {
+                                                        "id":  "illustration-rising-freedom",
+                                                        "title":  "Rising Freedom",
+                                                        "category":  "Illustration",
+                                                        "categoryKey":  "illustration",
+                                                        "year":  "",
+                                                        "cover":  "Illustration/Rising Freedom.JPG",
+                                                        "description":  "",
+                                                        "images":  [
+                                                                       "Illustration/Rising Freedom.JPG"
+                                                                   ],
+                                                        "kind":  "illustration"
+                                                    },
+                                                    {
+                                                        "id":  "illustration-star-striker",
+                                                        "title":  "Star Striker",
+                                                        "category":  "Illustration",
+                                                        "categoryKey":  "illustration",
+                                                        "year":  "",
+                                                        "cover":  "Illustration/Star Striker_1.JPEG",
+                                                        "description":  "",
+                                                        "images":  [
+                                                                       "Illustration/Star Striker_1.JPEG",
+                                                                       "Illustration/Star Striker_2.jpg"
+                                                                   ],
+                                                        "kind":  "illustration"
+                                                    },
+                                                    {
+                                                        "id":  "illustration-untitled",
+                                                        "title":  "Untitled",
+                                                        "category":  "Illustration",
+                                                        "categoryKey":  "illustration",
+                                                        "year":  "",
+                                                        "cover":  "Illustration/Untitled.JPG",
+                                                        "description":  "",
+                                                        "images":  [
+                                                                       "Illustration/Untitled.JPG"
+                                                                   ],
+                                                        "kind":  "illustration"
+                                                    }
+                                                ],
+                               "goods":  [
+                                             {
+                                                 "id":  "goods-tcg-coins-pokemon",
+                                                 "title":  "TCG Coins Pokemon",
+                                                 "category":  "Goods",
+                                                 "categoryKey":  "goods",
+                                                 "year":  "",
+                                                 "cover":  "Goods/TCG Coins-Pokemon_1.JPEG",
+                                                 "description":  "",
+                                                 "images":  [
+                                                                "Goods/TCG Coins-Pokemon_1.JPEG"
+                                                            ],
+                                                 "kind":  "illustration"
+                                             },
+                                             {
+                                                 "id":  "goods-tcg-coins-ygo",
+                                                 "title":  "TCG Coins YGO",
+                                                 "category":  "Goods",
+                                                 "categoryKey":  "goods",
+                                                 "year":  "",
+                                                 "cover":  "Goods/TCG Coins-YGO_1.JPEG",
+                                                 "description":  "",
+                                                 "images":  [
+                                                                "Goods/TCG Coins-YGO_1.JPEG",
+                                                                "Goods/TCG Coins-YGO_2.JPEG",
+                                                                "Goods/TCG Coins-YGO_3.JPEG",
+                                                                "Goods/TCG Coins-YGO_4.JPEG"
+                                                            ],
+                                                 "kind":  "illustration"
+                                             },
+                                             {
+                                                 "id":  "goods-tcg-playmat-ygo",
+                                                 "title":  "TCG Playmat YGO",
+                                                 "category":  "Goods",
+                                                 "categoryKey":  "goods",
+                                                 "year":  "",
+                                                 "cover":  "Goods/TCG Playmat-YGO_1.JPEG",
+                                                 "description":  "",
+                                                 "images":  [
+                                                                "Goods/TCG Playmat-YGO_1.JPEG"
+                                                            ],
+                                                 "kind":  "illustration"
+                                             }
+                                         ]
+                           }
 }

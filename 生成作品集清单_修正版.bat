@@ -2,57 +2,53 @@
 chcp 65001 >nul
 setlocal EnableExtensions
 
-pushd "%~dp0"
+pushd "%~dp0" || (
+    echo 无法进入脚本所在目录。
+    echo.
+    pause
+    exit /b 1
+)
 
 set "ROOT=%CD%"
 set "SELF=%~f0"
 set "OUTPUT=%ROOT%\portfolio-manifest.json"
 set "TMP_PS1=%TEMP%\portfolio_manifest_%RANDOM%_%RANDOM%.ps1"
-set "MARKER=**POWERSHELL**"
-set "MARKERLINE="
+set "HYBRID_SELF=%SELF%"
+set "HYBRID_TMP=%TMP_PS1%"
 
 echo 正在生成 portfolio-manifest.json，请稍候……
 echo.
 
-for /f "tokens=1 delims=:" %%A in ('findstr /n /b /c:"%MARKER%" "%SELF%"') do (
-if not defined MARKERLINE set "MARKERLINE=%%A"
-)
+rem 用 PowerShell 提取嵌入脚本，并写成带 BOM 的 UTF-8。
+rem 这样 Windows PowerShell 5.1 也能正确读取中文字符串。
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$lines = Get-Content -LiteralPath $env:HYBRID_SELF -Encoding UTF8; $marker = [Array]::IndexOf($lines, ':__POWERSHELL__'); if ($marker -lt 0 -or $marker -ge ($lines.Length - 1)) { exit 2 }; $encoding = New-Object System.Text.UTF8Encoding($true); [System.IO.File]::WriteAllLines($env:HYBRID_TMP, [string[]]($lines[($marker + 1)..($lines.Length - 1)]), $encoding)"
+set "EXTRACT_ERR=%ERRORLEVEL%"
 
-if not defined MARKERLINE (
-echo 找不到嵌入的 PowerShell 标记行。
-echo.
-popd
-pause
-exit /b 1
-)
-
-set /a STARTLINE=%MARKERLINE%+1
-more +%STARTLINE% "%SELF%" > "%TMP_PS1%"
-
-if errorlevel 1 (
-echo 提取临时 PowerShell 脚本失败。
-echo.
-popd
-pause
-exit /b 1
+if not "%EXTRACT_ERR%"=="0" (
+    echo 提取临时 PowerShell 脚本失败，错误代码：%EXTRACT_ERR%
+    echo.
+    del "%TMP_PS1%" >nul 2>nul
+    popd
+    pause
+    exit /b %EXTRACT_ERR%
 )
 
 if not exist "%TMP_PS1%" (
-echo 临时 PowerShell 脚本不存在。
-echo.
-popd
-pause
-exit /b 1
+    echo 临时 PowerShell 脚本不存在。
+    echo.
+    popd
+    pause
+    exit /b 1
 )
 
 for %%F in ("%TMP_PS1%") do set "TMP_SIZE=%%~zF"
 if "%TMP_SIZE%"=="0" (
-echo 临时 PowerShell 脚本为空。
-echo.
-del "%TMP_PS1%" >nul 2>nul
-popd
-pause
-exit /b 1
+    echo 临时 PowerShell 脚本为空。
+    echo.
+    del "%TMP_PS1%" >nul 2>nul
+    popd
+    pause
+    exit /b 1
 )
 
 powershell -NoProfile -ExecutionPolicy Bypass -File "%TMP_PS1%" -Root "%ROOT%" -Output "%OUTPUT%"
@@ -62,13 +58,13 @@ del "%TMP_PS1%" >nul 2>nul
 
 echo.
 if "%ERR%"=="0" (
-echo 已完成。
-echo JSON 已保存到：
-echo %OUTPUT%
-echo.
-if exist "%OUTPUT%" start "" "%OUTPUT%"
+    echo 已完成。
+    echo JSON 已保存到：
+    echo %OUTPUT%
+    echo.
+    if exist "%OUTPUT%" start "" "%OUTPUT%"
 ) else (
-echo 生成失败，错误代码：%ERR%
+    echo 生成失败，错误代码：%ERR%
 )
 
 echo.
@@ -76,15 +72,13 @@ popd
 pause
 exit /b %ERR%
 
-**POWERSHELL**
+:__POWERSHELL__
 param(
 [Parameter(Mandatory = $true)]
 [string]$Root,
 
-```
 [Parameter(Mandatory = $true)]
 [string]$Output
-```
 
 )
 
@@ -158,8 +152,21 @@ param(
 [string]$Base,
 [string]$Path
 )
-$relative = [System.IO.Path]::GetRelativePath($Base, $Path)
-return ($relative -replace '\', '/')
+
+$baseFull = [System.IO.Path]::GetFullPath($Base)
+if (-not $baseFull.EndsWith([System.IO.Path]::DirectorySeparatorChar.ToString())) {
+    $baseFull += [System.IO.Path]::DirectorySeparatorChar
+}
+
+$pathFull = [System.IO.Path]::GetFullPath($Path)
+$baseUri = New-Object System.Uri($baseFull)
+$pathUri = New-Object System.Uri($pathFull)
+
+$relative = [System.Uri]::UnescapeDataString(
+    $baseUri.MakeRelativeUri($pathUri).ToString()
+)
+
+return ($relative -replace '\\', '/')
 }
 
 function Get-NormalizedStem {
@@ -189,7 +196,6 @@ return '2024'
 function Get-ImageType {
 param([string]$NameOrPath)
 
-```
 $filename = [System.IO.Path]::GetFileName($NameOrPath).ToLowerInvariant()
 
 if ($filename.Contains('_main') -or $filename.Contains('_cover') -or $filename.Contains('主图')) {
@@ -205,28 +211,24 @@ if ($filename.Contains('_section')) { return 'section' }
 if ($filename.Contains('diagram')) { return 'diagram' }
 if ($filename.Contains('_process') -or $filename.Contains('过程')) { return 'process' }
 return 'unknown'
-```
 
 }
 
 function Get-TrailingNumber {
 param([string]$NameOrPath)
 
-```
 $stem = [System.IO.Path]::GetFileNameWithoutExtension($NameOrPath)
 $match = [regex]::Match($stem, '_(\d+)$')
 if ($match.Success) {
     return [int]$match.Groups[1].Value
 }
 return [int]::MaxValue
-```
 
 }
 
 function Get-SortedImageFiles {
 param([System.IO.FileInfo[]]$Files)
 
-```
 return @(
     $Files | Sort-Object -Property @(
         @{ Expression = { $typeOrder[(Get-ImageType $_.Name)] } },
@@ -234,7 +236,6 @@ return @(
         @{ Expression = { $_.Name.ToLowerInvariant() } }
     )
 )
-```
 
 }
 
@@ -244,10 +245,9 @@ param(
 [string[]]$Prefixes
 )
 
-```
 $matchedPrefix = ''
 foreach ($prefix in $Prefixes) {
-    if ($FolderName.StartsWith($prefix)) {
+    if ($FolderName.StartsWith($prefix, [System.StringComparison]::OrdinalIgnoreCase)) {
         $matchedPrefix = $prefix
         break
     }
@@ -256,7 +256,6 @@ foreach ($prefix in $Prefixes) {
 $raw = $FolderName.Substring($matchedPrefix.Length)
 $raw = $raw -replace '[_-]+', ' '
 return Get-CleanDisplayTitle $raw
-```
 
 }
 
@@ -268,7 +267,6 @@ param(
 [string[]]$Prefixes
 )
 
-```
 $files = Get-ChildItem -LiteralPath $Folder.FullName -Recurse -File |
     Where-Object { Test-ImageFile $_ }
 
@@ -297,7 +295,6 @@ return [ordered]@{
     images = $relativeImages
     kind = 'project'
 }
-```
 
 }
 
@@ -308,7 +305,6 @@ param(
 [string]$CategoryName
 )
 
-```
 if (-not $Dir.Exists) { return @() }
 
 $groups = @{}
@@ -362,7 +358,6 @@ $projects = foreach ($entry in $groups.GetEnumerator()) {
 }
 
 return @($projects | Sort-Object -Property @{ Expression = { $_.title.ToLowerInvariant() } })
-```
 
 }
 
@@ -374,7 +369,6 @@ $coverMatch = $rootFiles | Where-Object {
 (Get-NormalizedStem $_.Name) -eq $target
 } | Select-Object -First 1
 
-```
 [ordered]@{
     key = $category.key
     title = [ordered]@{
@@ -388,7 +382,6 @@ $coverMatch = $rootFiles | Where-Object {
         ''
     }
 }
-```
 
 }
 
@@ -397,11 +390,11 @@ foreach ($category in $categories) {
 $projectsByCategory[$category.key] = @()
 }
 
-foreach ($category in $categories | Where-Object { $*.folderPrefixes.Count -gt 0 }) {
+foreach ($category in $categories | Where-Object { $_.folderPrefixes.Count -gt 0 }) {
 $folders = Get-ChildItem -LiteralPath $rootPath -Directory | Where-Object {
 $matched = $false
 foreach ($prefix in $category.folderPrefixes) {
-if ($*.Name.StartsWith($prefix)) {
+if ($_.Name.StartsWith($prefix, [System.StringComparison]::OrdinalIgnoreCase)) {
 $matched = $true
 break
 }
@@ -409,7 +402,6 @@ break
 $matched
 } | Sort-Object Name
 
-```
 $projects = foreach ($folder in $folders) {
     New-ProjectFromFolder `
         -Folder $folder `
@@ -419,7 +411,6 @@ $projects = foreach ($folder in $folders) {
 }
 
 $projectsByCategory[$category.key] = @($projects | Where-Object { $null -ne $_ })
-```
 
 }
 
