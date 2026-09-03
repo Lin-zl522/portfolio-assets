@@ -530,7 +530,14 @@ function Header({ showBack, onBack, lang, onLanguage }: { showBack: boolean; onB
             )}
           </AnimatePresence>
         </motion.div>
-        <button type="button" onClick={onLanguage} className="h-full px-6 text-[15px] font-medium">{lang === "zh" ? "中 / EN" : "中文 / EN"}</button>
+        <button
+          type="button"
+          onClick={onLanguage}
+          aria-label={lang === "zh" ? "Switch to English" : "切换为中文"}
+          className="h-full px-6 text-[15px] font-medium"
+        >
+          中 / EN
+        </button>
         <div className="flex h-full items-center gap-6 border-x border-white/90 px-6">
           <a href={ui.bilibili} target="_blank" rel="noreferrer" title="Bilibili"><Icon type="bilibili" /></a>
           <a href={ui.makerworld} target="_blank" rel="noreferrer" title="MakerWorld"><Icon type="maker" /></a>
@@ -755,7 +762,17 @@ function HomePage({ categories, activeIndex, setHovered, onCategory, lang }: { c
               className="relative min-w-0 overflow-hidden text-left"
               animate={{ flex: active ? 4 : 1, height: active ? "100%" : "80%" }}
             >
-              <motion.div className="absolute inset-0 bg-center" style={{ backgroundImage: `url(${item.image})`, backgroundSize: item.key === "goods" ? "cover" : "auto 100%", backgroundRepeat: "no-repeat", filter: active ? "grayscale(0%)" : "grayscale(100%)" }} animate={{ scale: active ? 1.15 : 1 }} />
+              <motion.div
+                className="absolute inset-0"
+                style={{
+                  backgroundImage: `url(${item.image})`,
+                  backgroundPosition: item.key === "robotic" ? "left center" : "center",
+                  backgroundSize: item.key === "goods" ? "cover" : "auto 100%",
+                  backgroundRepeat: "no-repeat",
+                  filter: active ? "grayscale(0%)" : "grayscale(100%)",
+                }}
+                animate={{ scale: active && item.key !== "illustration" ? 1.15 : 1 }}
+              />
               <motion.h2 className="absolute right-[10px] top-6 z-20 whitespace-nowrap text-[clamp(42px,5.2vw,86px)] font-semibold uppercase leading-none tracking-[0.03em] text-white" style={{ writingMode: "vertical-rl" }} animate={{ opacity: active ? 0 : 1 }}>
                 {item.title.en}
               </motion.h2>
@@ -763,9 +780,9 @@ function HomePage({ categories, activeIndex, setHovered, onCategory, lang }: { c
           );
         })}
       </section>
-      <section className="relative flex h-32 items-center px-6 md:px-14">
-        <h1 className="-ml-[30px] -mt-[5px] text-5xl font-medium tracking-[0.08em] md:text-7xl lg:text-8xl" style={{ fontFamily: "SofiaPro" }}>{text.name}</h1>
-        <span className="absolute bottom-4 right-6 text-lg text-black/70 md:text-2xl" style={{ fontFamily: "SofiaPro" }}>{text.subname}</span>
+      <section className="flex min-h-32 flex-wrap items-end justify-between gap-x-8 gap-y-3 px-6 py-4 md:px-14">
+        <h1 className="-ml-[30px] min-w-0 max-w-full flex-1 basis-[520px] whitespace-normal break-words text-[72px] font-medium leading-[0.95] tracking-[0.08em]" style={{ fontFamily: "SofiaPro" }}>{text.name}</h1>
+        <span className="shrink-0 text-[24px] leading-none text-black/70" style={{ fontFamily: "SofiaPro" }}>{text.subname}</span>
       </section>
       <section className="grid gap-12 px-14 py-24 lg:grid-cols-2">
         <div>{text.about.map((paragraph) => <p key={paragraph} className="mb-6 leading-relaxed text-black/70">{paragraph}</p>)}</div>
