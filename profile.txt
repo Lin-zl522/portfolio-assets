@@ -3,12 +3,7 @@
 
 具备从概念发展到视觉表达、结构推敲与实体原型制作的完整设计能力。核心技能包括参数化建模、三维建模与制图、实体模型制作、材料实验、3D 打印、CNC 加工以及数字制造流程开发。
 
-毕业设计聚焦基于 Helmholtz resonators 与 Fano-like interference 的声学结构，探索模块化低频降噪系统，并通过计算设计、几何迭代、模拟分析与实体原型验证其声学性能和建筑应用潜力。
-
 [en]
-Bachelor of Architecture from Cornell University, with a minor in Game Design. Academic training spans architectural design, structural systems, computational design, rapid prototyping, and advanced game design.
+Bachelor of Architecture graduated from Cornell University, Minor in Game Design. Academic training spans architectural design, structural systems, computational design, rapid prototyping, and advanced game design.
 
 Skilled in concept development, visual communication, structural refinement, physical prototyping, parametric modeling, 3D modeling, drafting, material experimentation, 3D printing, CNC fabrication, and digital fabrication workflows.
-
-The thesis explores modular low-frequency noise reduction structures based on Helmholtz resonators and Fano-like interference through computational design, simulation, and physical prototyping.
-
