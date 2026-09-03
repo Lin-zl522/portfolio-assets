@@ -556,7 +556,13 @@ function Lightbox({ images, index, onIndex, onClose }: { images: string[]; index
   if (index === null || !images[index]) return null;
   return (
     <AnimatePresence>
-      <motion.div className="fixed inset-0 z-[80] flex items-center justify-center bg-black/90" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+      <motion.div
+        className="fixed inset-0 z-[80] flex items-center justify-center"
+        style={{ backgroundColor: "rgba(0, 0, 0, 0.9)" }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+      >
         <button type="button" onClick={onClose} aria-label="Close" className="absolute right-6 top-6 z-20 text-3xl text-white/80">×</button>
         {images.length > 1 && <>
           <button type="button" onClick={() => onIndex((index - 1 + images.length) % images.length)} aria-label="Previous" className="absolute left-4 top-1/2 z-20 -translate-y-1/2 px-5 py-8 text-6xl text-white/70">‹</button>
