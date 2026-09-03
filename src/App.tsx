@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import profileText from "../profile.txt?raw";
 
 type CategoryKey = "architecture" | "robotic" | "model" | "illustration" | "goods";
 type ImageType = "main" | "render" | "document" | "model" | "site" | "axon" | "plan" | "section" | "diagram" | "process" | "unknown";
@@ -111,6 +112,25 @@ const copy = {
     ],
   },
 } as const;
+
+function parseProfileAbout(value: string) {
+  const sections = value.replace(/\r\n?/g, "\n").split(/^\[(zh|en)\]\s*$/gm);
+  const parsed: Record<"zh" | "en", string[]> = { zh: [], en: [] };
+  for (let index = 1; index < sections.length; index += 2) {
+    const language = sections[index].toLowerCase() as "zh" | "en";
+    parsed[language] = (sections[index + 1] ?? "")
+      .trim()
+      .split(/\n\s*\n/)
+      .map((paragraph) => paragraph.trim())
+      .filter(Boolean);
+  }
+  return {
+    zh: parsed.zh.length ? parsed.zh : [...copy.zh.about],
+    en: parsed.en.length ? parsed.en : [...copy.en.about],
+  };
+}
+
+const profileAbout = parseProfileAbout(profileText);
 
 function filenameFromUrl(value: string) {
   const clean = value.split(/[?#]/)[0];
@@ -746,7 +766,7 @@ function ProjectPage({ project }: { project: PortfolioProject }) {
 }
 
 function HomePage({ categories, activeIndex, setHovered, onCategory, lang }: { categories: Category[]; activeIndex: number; setHovered: (index: number | null) => void; onCategory: (key: CategoryKey) => void; lang: "zh" | "en" }) {
-  const text = copy[lang];
+  const text = { ...copy[lang], about: profileAbout[lang] };
   return (
     <main className="pt-16">
       <section className="flex h-[calc(90vh-64px)] items-center overflow-visible">
