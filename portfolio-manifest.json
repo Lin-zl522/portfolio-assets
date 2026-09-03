@@ -1,6 +1,6 @@
 {
     "version":  1,
-    "generatedAt":  "2026-07-13T07:47:49.7843498Z",
+    "generatedAt":  "2026-09-03T09:50:46.6624934Z",
     "root":  ".",
     "categories":  [
                        {
@@ -505,6 +505,36 @@
                                                     }
                                                 ],
                                "goods":  [
+                                             {
+                                                 "id":  "goods-biwon-blade",
+                                                 "title":  "Biwon Blade",
+                                                 "category":  "Goods",
+                                                 "categoryKey":  "goods",
+                                                 "year":  "",
+                                                 "cover":  "Goods/Biwon Blade_1.jpg",
+                                                 "description":  "",
+                                                 "images":  [
+                                                                "Goods/Biwon Blade_1.jpg",
+                                                                "Goods/Biwon Blade_2.jpg",
+                                                                "Goods/Biwon Blade_3.jpg",
+                                                                "Goods/Biwon Blade_4.jpg"
+                                                            ],
+                                                 "kind":  "illustration"
+                                             },
+                                             {
+                                                 "id":  "goods-sci-fi-pistol",
+                                                 "title":  "Sci Fi Pistol",
+                                                 "category":  "Goods",
+                                                 "categoryKey":  "goods",
+                                                 "year":  "",
+                                                 "cover":  "Goods/Sci Fi Pistol_1.jpg",
+                                                 "description":  "",
+                                                 "images":  [
+                                                                "Goods/Sci Fi Pistol_1.jpg",
+                                                                "Goods/Sci Fi Pistol_2.jpg"
+                                                            ],
+                                                 "kind":  "illustration"
+                                             },
                                              {
                                                  "id":  "goods-tcg-coins-pokemon",
                                                  "title":  "TCG Coins Pokemon",
