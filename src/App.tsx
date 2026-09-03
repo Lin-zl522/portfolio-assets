@@ -780,11 +780,37 @@ export default function PortfolioWebsitePrototype() {
   const { categories, projectsByCategory, loading, error } = usePortfolioData();
   const [hovered, setHovered] = useState<number | null>(null);
   const [autoIndex, setAutoIndex] = useState(0);
-  const [lang, setLang] = useState<"zh" | "en">("zh");
+  const [lang, setLang] = useState<"zh" | "en">(() =>
+    /^\/en(?:\/|$)/i.test(window.location.pathname) ? "en" : "zh",
+  );
   const [categoryKey, setCategoryKey] = useState<CategoryKey | null>(null);
   const [project, setProject] = useState<PortfolioProject | null>(null);
   const [transitioning, setTransitioning] = useState(false);
   const selectedCategory = categories.find((category) => category.key === categoryKey) ?? null;
+
+  useEffect(() => {
+    const syncLanguageFromUrl = () => {
+      const pathname = window.location.pathname;
+      const nextLanguage = /^\/en(?:\/|$)/i.test(pathname) ? "en" : "zh";
+      setLang(nextLanguage);
+      document.documentElement.lang = nextLanguage === "zh" ? "zh-CN" : "en";
+      if (!/^\/(?:cn|en)\/?$/i.test(pathname)) {
+        window.history.replaceState(null, "", `/${nextLanguage === "zh" ? "cn" : "en"}${window.location.search}${window.location.hash}`);
+      }
+    };
+    syncLanguageFromUrl();
+    window.addEventListener("popstate", syncLanguageFromUrl);
+    return () => window.removeEventListener("popstate", syncLanguageFromUrl);
+  }, []);
+
+  const changeLanguage = () => {
+    setLang((current) => {
+      const nextLanguage = current === "zh" ? "en" : "zh";
+      window.history.pushState(null, "", `/${nextLanguage === "zh" ? "cn" : "en"}`);
+      document.documentElement.lang = nextLanguage === "zh" ? "zh-CN" : "en";
+      return nextLanguage;
+    });
+  };
 
   useEffect(() => {
     if (hovered !== null || categoryKey !== null || categories.length === 0) return;
@@ -809,7 +835,7 @@ export default function PortfolioWebsitePrototype() {
         showBack={Boolean(categoryKey)}
         onBack={() => transition(() => project ? setProject(null) : setCategoryKey(null))}
         lang={lang}
-        onLanguage={() => setLang((value) => value === "zh" ? "en" : "zh")}
+        onLanguage={changeLanguage}
       />
       {project ? (
         <ProjectPage key={project.id} project={project} />
