@@ -3,3 +3,9 @@
 3_team member: 
 本项目进一步探索增材制造在产品设计中的创新应用，研究不同材料在增材制造过程中的共性及其设计潜力，并充分利用材料特性开发新的结构方案。以椅子这一与人体交互最直接的产品为对象，在满足人体工学与舒适性的基础上，探索增材制造赋予产品结构的新可能。
 项目聚焦于传统制造工艺难以实现的可动结构，通过针对增材制造特性的结构设计，开发出一种创新的旋转关节单元，并以此构建全新的机械系统，使椅子能够在有限空间内实现更加灵活的折叠与展开。该研究展示了增材制造不仅能够突破传统制造的结构限制，也为未来可变形产品和紧凑型家具设计提供了新的思路。
+
+[en]
+This project further explores innovative applications of additive manufacturing in product design. It investigates the shared behaviors and design potential of different materials during additive fabrication and uses their specific properties to develop new structural systems. Taking the chair—one of the products most directly engaged with the human body—as its subject, the project explores new structural possibilities enabled by additive manufacturing while maintaining ergonomic performance and comfort.
+
+The project focuses on movable structures that are difficult to produce through conventional manufacturing. Through a structural design tailored to additive fabrication, it develops an innovative rotating-joint unit and uses it to construct a new mechanical system, allowing the chair to fold and unfold more flexibly within a limited space. The research demonstrates how additive manufacturing can overcome the structural constraints of traditional production while offering new directions for transformable products and compact furniture.
+
