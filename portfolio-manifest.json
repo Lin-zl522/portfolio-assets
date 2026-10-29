@@ -1,6 +1,6 @@
 {
     "version":  1,
-    "generatedAt":  "2026-09-03T09:50:46.6624934Z",
+    "generatedAt":  "2026-10-29T05:30:26.9212761Z",
     "root":  ".",
     "categories":  [
                        {
@@ -500,6 +500,19 @@
                                                         "description":  "",
                                                         "images":  [
                                                                        "Illustration/Untitled.JPG"
+                                                                   ],
+                                                        "kind":  "illustration"
+                                                    },
+                                                    {
+                                                        "id":  "illustration-xarx-zero",
+                                                        "title":  "XARX ZERO",
+                                                        "category":  "Illustration",
+                                                        "categoryKey":  "illustration",
+                                                        "year":  "",
+                                                        "cover":  "Illustration/XARX-ZERO.JPEG",
+                                                        "description":  "",
+                                                        "images":  [
+                                                                       "Illustration/XARX-ZERO.JPEG"
                                                                    ],
                                                         "kind":  "illustration"
                                                     }
