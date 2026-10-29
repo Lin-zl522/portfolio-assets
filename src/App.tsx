@@ -16,6 +16,8 @@ type PortfolioProject = {
   teamMember?: string;
   cover: string;
   description: string;
+  descriptionZh?: string;
+  descriptionEn?: string;
   images: string[];
   infoPath?: string;
   kind?: "project" | "illustration";
@@ -363,18 +365,35 @@ function prefixedInfoValue(line: string, key: string) {
   return stripWrappedQuotes(line.slice(line.indexOf(":") + 1));
 }
 
+function splitLocalizedDescription(value: string) {
+  const marker = /^\s*\[en\]\s*$/im;
+  const match = marker.exec(value);
+  if (!match) return { descriptionZh: value.trim(), descriptionEn: "" };
+  return {
+    descriptionZh: value.slice(0, match.index).trim(),
+    descriptionEn: value.slice(match.index + match[0].length).trim(),
+  };
+}
+
 function parseProjectInfo(text: string, categoryKey: CategoryKey) {
   const normalized = (text.charCodeAt(0) === 0xfeff ? text.slice(1) : text).replace(/\r\n?/g, "\n");
   const lines = normalized.split("\n");
-  if (categoryKey === "architecture") {
-    const year = prefixedInfoValue(lines[0] ?? "", "1_year");
-    const professor = prefixedInfoValue(lines[1] ?? "", "2_professer");
-    const teamMember = prefixedInfoValue(lines[2] ?? "", "3_team member");
-    const description = lines.slice(3).join("\n").trim();
-    if (year || professor || teamMember || description) return { year, professor, teamMember, description };
-  }
-  const year = stripWrappedQuotes((lines.shift() ?? "").trim());
-  return { year, professor: "", teamMember: "", description: lines.join("\n").trim() };
+  const hasStructuredMetadata = ["1_year", "2_professer", "3_team member"].some((key, index) =>
+    Boolean(prefixedInfoValue(lines[index] ?? "", key)),
+  ) || lines.slice(0, 3).some((line) => /^\s*[123]_(?:year|professer|team member)\s*:/i.test(line));
+  const year = hasStructuredMetadata ? prefixedInfoValue(lines[0] ?? "", "1_year") : stripWrappedQuotes((lines[0] ?? "").trim());
+  const professor = hasStructuredMetadata ? prefixedInfoValue(lines[1] ?? "", "2_professer") : "";
+  const teamMember = hasStructuredMetadata ? prefixedInfoValue(lines[2] ?? "", "3_team member") : "";
+  const descriptionBlock = (hasStructuredMetadata ? lines.slice(3) : lines.slice(1)).join("\n").trim();
+  const { descriptionZh, descriptionEn } = splitLocalizedDescription(descriptionBlock);
+  return {
+    year,
+    professor,
+    teamMember,
+    description: descriptionZh || descriptionEn,
+    descriptionZh,
+    descriptionEn,
+  };
 }
 
 function projectInfoCandidates(project: PortfolioProject) {
@@ -399,7 +418,9 @@ async function hydratePortfolioInfo(data: PortfolioData) {
           year: info.year || project.year,
           professor: info.professor || project.professor,
           teamMember: info.teamMember || project.teamMember,
-          description: info.description,
+          description: info.description || project.description,
+          descriptionZh: info.descriptionZh || project.descriptionZh || project.description,
+          descriptionEn: info.descriptionEn || project.descriptionEn,
         };
       } catch {
         // Try the next supported filename.
@@ -506,13 +527,16 @@ function SelfTests() {
       images: ["x_cover.jpg", "x_document_l_3.jpg", "x_document_m_1.jpg"],
     });
     expect(getSequence(normalized.images[1]) === 1, "Manifest images should be normalized by sequence");
-    const architectureInfo = parseProjectInfo('1_year: "2025"\n2_professer: "Dr A"\n3_team member: "B, C"\nParagraph 1\n\nParagraph 2', "architecture");
+    const architectureInfo = parseProjectInfo('1_year: "2025"\n2_professer: "Dr A"\n3_team member: "B, C"\n中文简介\n[en]\nEnglish description', "architecture");
     expect(architectureInfo.year === "2025", "Architecture year should parse");
     expect(architectureInfo.professor === "Dr A", "Architecture professor should parse");
     expect(architectureInfo.teamMember === "B, C", "Architecture team member should parse");
-    expect(architectureInfo.description === "Paragraph 1\n\nParagraph 2", "Architecture paragraphs should retain blank lines");
+    expect(architectureInfo.descriptionZh === "中文简介", "Chinese description should parse");
+    expect(architectureInfo.descriptionEn === "English description", "English description should parse");
     const architectureEmpty = parseProjectInfo('1_year: "2026"\n2_professer: ""\n3_team member: ""\nDescription', "architecture");
     expect(!architectureEmpty.professor && !architectureEmpty.teamMember, "Empty architecture fields should stay hidden");
+    const roboticInfo = parseProjectInfo('1_year: "2024"\n2_professer: "Dr B"\n3_team member: "C"\n中文\n[en]\nEnglish', "robotic");
+    expect(roboticInfo.professor === "Dr B" && roboticInfo.descriptionEn === "English", "Robotic metadata and English description should parse");
   }, []);
   return null;
 }
@@ -714,14 +738,17 @@ function GalleryPage({ category, projects, loading, error, onProject }: { catego
   );
 }
 
-function ProjectPage({ project }: { project: PortfolioProject }) {
+function ProjectPage({ project, lang }: { project: PortfolioProject; lang: "zh" | "en" }) {
   const { width: viewport, height: viewportHeight } = useViewportSize();
   const [coverRatio, setCoverRatio] = useState(1.4);
   const [index, setIndex] = useState<number | null>(null);
   const cover = project.cover || project.images[0];
   const body = useMemo(() => project.images.filter((image) => image !== cover), [project.images, cover]);
   const rows = useMemo(() => buildRows(body), [body]);
-  const paragraphs = useMemo(() => project.description.split(/\n+/).map((text) => text.trim()).filter(Boolean), [project.description]);
+  const localizedDescription = lang === "en"
+    ? project.descriptionEn || project.descriptionZh || project.description
+    : project.descriptionZh || project.description;
+  const paragraphs = useMemo(() => localizedDescription.split(/\n+/).map((text) => text.trim()).filter(Boolean), [localizedDescription]);
   const desktop = viewport >= 768;
   const coverIsVerticalOrSquare = coverRatio <= 1;
   const coverWidth = desktop ? (coverIsVerticalOrSquare ? viewportHeight * 0.8 * coverRatio : viewport * 0.6) : undefined;
@@ -881,7 +908,7 @@ export default function PortfolioWebsitePrototype() {
         onLanguage={changeLanguage}
       />
       {project ? (
-        <ProjectPage key={project.id} project={project} />
+        <ProjectPage key={project.id} project={project} lang={lang} />
       ) : selectedCategory ? (
         <GalleryPage
           key={selectedCategory.key}
@@ -904,4 +931,5 @@ export default function PortfolioWebsitePrototype() {
     </div>
   );
 }
+
 
