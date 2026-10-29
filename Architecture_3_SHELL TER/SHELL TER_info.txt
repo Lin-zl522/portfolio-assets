@@ -4,3 +4,11 @@
 伦敦希思罗机场最初是一片位于米德尔塞克斯（Middlesex）的农田，名为 “Heath Row”。随着战后航空需求的增长以及英国跨大西洋航空运输地位的提升，希思罗机场经历了持续的扩建与更新：20 世纪 50 年代建成如今的两条东西向长跑道；1955 年启用了第一座永久性航站楼——Europa Building；随后陆续增建了 1 至 5 号航站楼，并开通了Heathrow Express铁路连接。这个最初作为战时应急机场的场地，最终在有限的郊区用地内，发展成为欧洲最繁忙的国际航空枢纽。
 豪恩斯洛（Hounslow）位于希思罗机场飞机进近航道的正下方，大多数小学以及大量住宅都处于 63 dB 噪声等值线范围内。该区域以低层砖砌建筑为主，建筑间距紧凑，同时依赖自然通风，这些条件使任何针对建筑外部的声学干预措施都面临较大的设计挑战。
 然而，传统隔声主要依赖厚重材料及增加构件质量，这往往削弱建筑与室外环境之间的联系。本项目尝试提出另一种思路：是否能够通过几何形态而非材料厚度实现降噪？ 通过结构设计而非单纯增加质量，在保持自然采光与通风的同时，实现高效的声学防护。
+
+[en]
+London Heathrow Airport began as farmland in Middlesex known as "Heath Row." As postwar demand for aviation grew and the United Kingdom strengthened its role in transatlantic air travel, Heathrow underwent continuous expansion and modernization. Its two present east-west runways were completed in the 1950s; the first permanent terminal, the Europa Building, opened in 1955; Terminals 1 through 5 and the Heathrow Express rail connection followed. What began as an emergency wartime airfield eventually became Europe's busiest international aviation hub within a constrained suburban site.
+
+Hounslow lies directly beneath Heathrow's aircraft approach paths. Most of its primary schools and a substantial number of homes fall within the 63 dB noise contour. The area's closely spaced, low-rise brick buildings also rely on natural ventilation, creating significant design challenges for any exterior acoustic intervention.
+
+Conventional sound insulation depends largely on heavy materials and increased component mass, often weakening the relationship between a building and its outdoor environment. This project asks whether noise can instead be reduced through geometry rather than material thickness. By using structural design instead of simply adding mass, it seeks to provide effective acoustic protection while preserving natural daylight and ventilation.
+
